@@ -5,10 +5,7 @@ literária de que a contagem de um verso se encerra na última sílaba tônica
 (GOLDSTEIN, 2006).
 """
 
-OXITONA = "oxítona"
-PAROXITONA = "paroxítona"
-PROPAROXITONA = "proparoxítona"
-
+from motor_pln.tonicidade import OXITONA, PAROXITONA, PROPAROXITONA
 
 def aplicar_corte_metrico(silabas: list[str], tonicidade: str) -> int:
     """Conta as sílabas poéticas de um verso.
