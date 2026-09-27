@@ -47,6 +47,9 @@ def separar_silabas(palavra: str) -> list[str]:
     if not palavra:
         raise ValueError("A palavra não pode ser vazia.")
 
+    if "-" in palavra:
+        return _separar_palavra_com_hifen(palavra)
+
     minuscula = palavra.lower()
     if minuscula in EXCECOES:
         silabas = EXCECOES[minuscula]
@@ -71,6 +74,13 @@ def separar_verso(verso: str) -> list[list[str]]:
     """
     return [separar_silabas(palavra) for palavra in verso.split()]
 
+def _separar_palavra_com_hifen(palavra: str) -> list[str]:
+    """Separa cada parte de uma palavra com hífen (guarda-chuva, entendê-las)."""
+    silabas = []
+    for parte in palavra.split("-"):
+        if parte:
+            silabas.extend(separar_silabas(parte))
+    return silabas
 
 def _juntar_ditongo_crescente_final(silabas: list[str], palavra: str) -> list[str]:
     """Regra 4: junta o "e" final ao i ou u anterior (sé-ri-e -> sé-rie).

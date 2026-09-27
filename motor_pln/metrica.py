@@ -1,11 +1,93 @@
-"""Corte métrico: converte a divisão silábica de um verso em sílabas poéticas.
+"""Análise métrica do verso: corte métrico, tonicidade final e nome do metro.
 
-Implementa o algoritmo AplicarCorteMetrico (Quadro 14 do TCC), que traduz a regra
-literária de que a contagem de um verso se encerra na última sílaba tônica
-(GOLDSTEIN, 2006).
+Implementa a partição "Análise de Métrica" do diagrama de atividades (Seção
+3.3.3 do TCC), incluindo o algoritmo AplicarCorteMetrico do Quadro 14.
 """
 
-from motor_pln.tonicidade import OXITONA, PAROXITONA, PROPAROXITONA
+from motor_pln.preprocessamento import limpar_verso
+from motor_pln.resultados import AnaliseMetrica
+from motor_pln.silabacao import separar_silabas, separar_verso
+from motor_pln.sinalefa import aplicar_sinalefas
+from motor_pln.tonicidade import (
+    OXITONA,
+    PAROXITONA,
+    PROPAROXITONA,
+    TONICIDADES,
+    indice_silaba_tonica,
+)
+
+# Nome do metro pelo número de sílabas poéticas.
+METROS = {
+    1: "monossílabo",
+    2: "dissílabo",
+    3: "trissílabo",
+    4: "tetrassílabo",
+    5: "redondilha menor",
+    6: "hexassílabo",
+    7: "redondilha maior",
+    8: "octossílabo",
+    9: "eneassílabo",
+    10: "decassílabo",
+    11: "hendecassílabo",
+    12: "dodecassílabo",
+}
+METRO_BARBARO = "verso bárbaro"
+
+# Pronomes átonos que se prendem ao verbo por hífen (entendê-las, amá-lo).
+PRONOMES_ENCLITICOS = frozenset({
+    "o", "a", "os", "as", "lo", "la", "los", "las", "no", "na", "nos", "nas",
+    "me", "te", "se", "lhe", "lhes", "vos",
+})
+
+
+def escandir_verso(verso: str) -> AnaliseMetrica:
+    """Executa a análise métrica completa de um verso.
+
+    Args:
+        verso: o verso como o escritor digitou, com pontuação e maiúsculas.
+
+    Returns:
+        A análise métrica, com os campos da entidade AnaliseMetrica.
+
+    Raises:
+        ValueError: se o verso não contiver nenhuma palavra.
+    """
+    texto_limpo = limpar_verso(verso)
+    if not texto_limpo:
+        raise ValueError("O verso não contém palavras.")
+
+    palavras = separar_verso(texto_limpo)
+    silabas_poeticas = aplicar_sinalefas(palavras)
+    tonicidade = tonicidade_da_ultima_palavra(texto_limpo.split()[-1])
+    total = aplicar_corte_metrico(silabas_poeticas, tonicidade)
+
+    return AnaliseMetrica(
+        separacao_gramatical=" ".join("-".join(silabas) for silabas in palavras),
+        separacao_poetica="-".join(silabas_poeticas),
+        total_silabas=total,
+        classificacao=classificar_metro(total),
+    )
+
+
+def tonicidade_da_ultima_palavra(palavra: str) -> str:
+    """Classifica a palavra que fecha o verso, tratando palavras com hífen.
+
+    Pronomes enclíticos são átonos e se apoiam no verbo: em "entendê-las", a
+    tônica é "dê" e a palavra inteira é paroxítona. Em compostos como
+    "guarda-chuva", a tônica principal é a do último elemento.
+    """
+    partes = [parte for parte in palavra.split("-") if parte]
+    silabas_encliticas = 0
+    while len(partes) > 1 and partes[-1].lower() in PRONOMES_ENCLITICOS:
+        partes.pop()
+        silabas_encliticas += 1
+
+    silabas = separar_silabas(partes[-1])
+    distancia = len(silabas) - 1 - indice_silaba_tonica(silabas) + silabas_encliticas
+    if distancia >= len(TONICIDADES):
+        raise ValueError(f"Tônica impossível em {palavra!r}.")
+    return TONICIDADES[distancia]
+
 
 def aplicar_corte_metrico(silabas: list[str], tonicidade: str) -> int:
     """Conta as sílabas poéticas de um verso.
@@ -40,3 +122,10 @@ def aplicar_corte_metrico(silabas: list[str], tonicidade: str) -> int:
         )
 
     return silabas_poeticas
+
+
+def classificar_metro(silabas_poeticas: int) -> str:
+    """Dá o nome do metro a partir do total de sílabas poéticas."""
+    if silabas_poeticas < 1:
+        raise ValueError("O verso precisa ter ao menos uma sílaba poética.")
+    return METROS.get(silabas_poeticas, METRO_BARBARO)

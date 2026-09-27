@@ -1,4 +1,4 @@
-"""Testes do corte métrico (Quadro 14 do TCC)."""
+"""Testes da análise métrica (Quadro 14 e partição de métrica do TCC)."""
 
 import pytest
 
@@ -7,6 +7,9 @@ from motor_pln.metrica import (
     PAROXITONA,
     PROPAROXITONA,
     aplicar_corte_metrico,
+    classificar_metro,
+    escandir_verso,
+    tonicidade_da_ultima_palavra,
 )
 
 # "Amor é fogo que arde sem se ver" (Camões), decassílabo terminado em oxítona.
@@ -15,6 +18,8 @@ CAMOES = ["A", "mo", "ré", "fo", "go", "quear", "de", "sem", "se", "ver"]
 # "Ora (direis) ouvir estrelas! Certo" (Bilac), decassílabo terminado em paroxítona.
 BILAC = ["O", "ra", "di", "reis", "ou", "vir", "es", "tre", "las", "Cer", "to"]
 
+
+# --- Corte métrico (Quadro 14) ---------------------------------------------
 
 def test_oxitona_nao_descarta_silabas():
     assert aplicar_corte_metrico(CAMOES, OXITONA) == 10
@@ -42,3 +47,62 @@ def test_tonicidade_desconhecida_gera_erro():
 def test_corte_maior_que_o_verso_gera_erro():
     with pytest.raises(ValueError):
         aplicar_corte_metrico(["sol"], PAROXITONA)
+
+
+# --- Tonicidade da última palavra (ênclise e compostos) ----------------------
+
+@pytest.mark.parametrize("palavra, esperada", [
+    ("amor", OXITONA),
+    ("entendê-las", PAROXITONA),    # a tônica fica em "dê"
+    ("amá-lo", PAROXITONA),
+    ("transforma-se", PROPAROXITONA),  # trans-FOR-ma-se
+    ("guarda-chuva", PAROXITONA),   # vale o último elemento
+    ("beija-flor", OXITONA),
+])
+def test_tonicidade_da_ultima_palavra(palavra, esperada):
+    assert tonicidade_da_ultima_palavra(palavra) == esperada
+
+
+# --- Nome do metro -------------------------------------------------------
+
+@pytest.mark.parametrize("silabas, metro", [
+    (5, "redondilha menor"),
+    (7, "redondilha maior"),
+    (10, "decassílabo"),
+    (12, "dodecassílabo"),
+    (14, "verso bárbaro"),
+])
+def test_classificar_metro(silabas, metro):
+    assert classificar_metro(silabas) == metro
+
+
+def test_metro_de_zero_silabas_gera_erro():
+    with pytest.raises(ValueError):
+        classificar_metro(0)
+
+
+# --- Análise completa do verso -------------------------------------------
+
+@pytest.mark.parametrize("verso, total, metro", [
+    ("Ora (direis) ouvir estrelas! Certo", 10, "decassílabo"),         # Bilac
+    ('E eu vos direi: "Amai para entendê-las!"', 10, "decassílabo"),   # Bilac
+    ("Transforma-se o amador na cousa amada,", 10, "decassílabo"),     # Camões
+    ("Última flor do Lácio, inculta e bela,", 10, "decassílabo"),      # Bilac
+    ("Minha terra tem palmeiras,", 7, "redondilha maior"),             # Gonçalves Dias
+    ("Onde canta o Sabiá;", 7, "redondilha maior"),                    # Gonçalves Dias
+])
+def test_escandir_verso(verso, total, metro):
+    analise = escandir_verso(verso)
+    assert analise.total_silabas == total
+    assert analise.classificacao == metro
+
+
+def test_escandir_verso_preenche_as_separacoes():
+    analise = escandir_verso("Amor é fogo que arde sem se ver")
+    assert analise.separacao_gramatical == "a-mor é fo-go que ar-de sem se ver"
+    assert analise.separacao_poetica == "a-mor-é-fo-go-quear-de-sem-se-ver"
+
+
+def test_verso_sem_palavras_gera_erro():
+    with pytest.raises(ValueError):
+        escandir_verso("...!")

@@ -80,3 +80,7 @@ def test_separar_verso_devolve_as_silabas_de_cada_palavra():
         ["A", "mor"], ["é"], ["fo", "go"], ["que"],
         ["ar", "de"], ["sem"], ["se"], ["ver"],
     ]
+
+def test_palavra_com_hifen_e_separada_por_partes():
+    assert separar_silabas("entendê-las") == ["en", "ten", "dê", "las"]
+    assert separar_silabas("guarda-chuva") == ["guar", "da", "chu", "va"]
