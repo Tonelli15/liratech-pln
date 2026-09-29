@@ -53,13 +53,16 @@ def test_corte_maior_que_o_verso_gera_erro():
 
 @pytest.mark.parametrize("palavra, esperada", [
     ("amor", OXITONA),
-    ("entendê-las", PAROXITONA),    # a tônica fica em "dê"
+    ("entendê-las", PAROXITONA),       # tônica em "dê": uma átona depois
     ("amá-lo", PAROXITONA),
-    ("transforma-se", PROPAROXITONA),  # trans-FOR-ma-se
-    ("guarda-chuva", PAROXITONA),   # vale o último elemento
+    ("transforma-se", PROPAROXITONA),  # tônica em "for": duas átonas depois
+    ("guarda-chuva", PAROXITONA),      # vale o último elemento
     ("beija-flor", OXITONA),
 ])
 def test_tonicidade_da_ultima_palavra(palavra, esperada):
+    # Classificação prosódica, que é a exigida pelo corte métrico: conta as
+    # átonas posteriores à tônica. Não se confunde com a acentuação gráfica,
+    # que desconsidera o pronome enclítico ("transforma-se" não leva acento).
     assert tonicidade_da_ultima_palavra(palavra) == esperada
 
 

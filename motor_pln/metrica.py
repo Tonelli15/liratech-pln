@@ -70,11 +70,18 @@ def escandir_verso(verso: str) -> AnaliseMetrica:
 
 
 def tonicidade_da_ultima_palavra(palavra: str) -> str:
-    """Classifica a palavra que fecha o verso, tratando palavras com hífen.
+    """Diz a que distância do fim está a tônica da palavra que fecha o verso.
 
-    Pronomes enclíticos são átonos e se apoiam no verbo: em "entendê-las", a
-    tônica é "dê" e a palavra inteira é paroxítona. Em compostos como
-    "guarda-chuva", a tônica principal é a do último elemento.
+    Pronomes enclíticos são átonos e apoiam-se fonologicamente na forma verbal,
+    comportando-se como se fossem uma de suas sílabas: em "entendê-las" a tônica
+    é "dê", com uma átona depois; em "transforma-se" é "for", com duas.
+
+    Esta é a classificação prosódica, que é a que o corte métrico exige. Ela não
+    se confunde com a classificação ortográfica: as regras de acentuação gráfica
+    desconsideram o pronome átono, e por isso "transforma-se" não recebe acento,
+    embora a tônica do conjunto ocupe a antepenúltima posição.
+
+    Nos compostos, como "guarda-chuva", prevalece a tônica do último elemento.
     """
     partes = [parte for parte in palavra.split("-") if parte]
     silabas_encliticas = 0

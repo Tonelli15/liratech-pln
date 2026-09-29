@@ -11,3 +11,12 @@ class AnaliseMetrica:
     separacao_poetica: str
     total_silabas: int
     classificacao: str
+
+
+@dataclass(frozen=True)
+class EtiquetaMorfologica:
+    """Classe gramatical da palavra que encerra o verso (entidade AnaliseRima)."""
+
+    palavra: str
+    etiqueta_upos: str
+    classe_gramatical: str
