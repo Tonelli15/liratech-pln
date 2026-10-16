@@ -28,3 +28,19 @@ class AnaliseRima:
     palavra_final: str
     fonema_tonico: str
     classe_gramatical: str
+
+@dataclass(frozen=True)
+class AnaliseVerso:
+    """Relatório consolidado de um verso (partição de Consolidação do TCC).
+
+    Cada análise pode ser None quando falha isoladamente, refletindo a
+    cardinalidade (0,1) entre Verso, AnaliseMetrica e AnaliseRima no modelo
+    conceitual. O motivo da falha é registrado em avisos.
+    """
+
+    texto_limpo: str
+    analise_metrica: AnaliseMetrica | None
+    analise_rima: AnaliseRima | None
+    avisos: tuple[str, ...]
+    versao_motor: str
+    modelo_spacy: str

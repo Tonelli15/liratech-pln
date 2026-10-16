@@ -1,6 +1,6 @@
 """Testes da terminação sonora e da análise de rima (Seção 3.3.3 do TCC)."""
 
-import pytest
+import pytest 
 
 from motor_pln.rima import analisar_rima, terminacao_sonora
 
