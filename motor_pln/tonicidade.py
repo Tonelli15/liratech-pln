@@ -4,6 +4,8 @@ As regras de acentuação do português dizem quando uma palavra recebe acento.
 Aplicadas ao contrário, elas revelam a sílaba tônica de qualquer palavra.
 """
 
+from motor_pln.silabacao import separar_silabas
+
 OXITONA = "oxítona"
 PAROXITONA = "paroxítona"
 PROPAROXITONA = "proparoxítona"
@@ -20,6 +22,37 @@ TERMINACOES_PAROXITONAS = ("a", "e", "o", "as", "es", "os", "am", "em", "ens")
 # Sufixos que conservam o til da palavra original, mas levam a tônica para si.
 SUFIXOS_QUE_ANULAM_O_TIL = ("mente", "zinho", "zinha", "zinhos", "zinhas")
 
+# Pronomes átonos que se prendem ao verbo por hífen (entendê-las, amá-lo).
+PRONOMES_ENCLITICOS = frozenset({
+    "o", "a", "os", "as", "lo", "la", "los", "las", "no", "na", "nos", "nas",
+    "me", "te", "se", "lhe", "lhes", "vos",
+})
+
+
+def silabas_e_tonica(palavra: str) -> tuple[list[str], int]:
+    """Separa a palavra em sílabas e localiza a tônica, tratando o hífen.
+
+    Pronomes enclíticos são átonos e apoiam-se na forma verbal, de modo que a
+    tônica permanece no verbo; nos compostos, prevalece a tônica do último
+    elemento.
+
+    Args:
+        palavra: uma única palavra, podendo conter hífen.
+
+    Returns:
+        As sílabas da palavra inteira e a posição da tônica dentro dessa lista.
+    """
+    partes = [parte for parte in palavra.split("-") if parte]
+    if not partes:
+        raise ValueError("A palavra não pode ser vazia.")
+
+    nucleo = list(partes)
+    while len(nucleo) > 1 and nucleo[-1].lower() in PRONOMES_ENCLITICOS:
+        nucleo.pop()
+
+    anteriores = sum(len(separar_silabas(parte)) for parte in nucleo[:-1])
+    tonica = anteriores + indice_silaba_tonica(separar_silabas(nucleo[-1]))
+    return separar_silabas(palavra), tonica
 
 def indice_silaba_tonica(silabas: list[str]) -> int:
     """Encontra a sílaba tônica de uma palavra.

@@ -9,6 +9,7 @@ from motor_pln.tonicidade import (
     PROPAROXITONA,
     classificar_tonicidade,
     indice_silaba_tonica,
+    silabas_e_tonica,
 )
 
 CASOS = [
@@ -66,3 +67,13 @@ def test_lista_vazia_gera_erro():
 def test_tonica_antes_da_antepenultima_gera_erro():
     with pytest.raises(ValueError):
         classificar_tonicidade(["á", "ba", "ca", "te"])
+
+@pytest.mark.parametrize("palavra, silabas, tonica", [
+    ("amor", ["a", "mor"], 1),
+    ("entendê-las", ["en", "ten", "dê", "las"], 2),   # a tônica fica no verbo
+    ("transforma-se", ["trans", "for", "ma", "se"], 1),
+    ("guarda-chuva", ["guar", "da", "chu", "va"], 2),  # vale o último elemento
+    ("beija-flor", ["bei", "ja", "flor"], 2),
+])
+def test_silabas_e_tonica_trata_o_hifen(palavra, silabas, tonica):
+    assert silabas_e_tonica(palavra) == (silabas, tonica)

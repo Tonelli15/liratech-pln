@@ -20,3 +20,11 @@ class EtiquetaMorfologica:
     palavra: str
     etiqueta_upos: str
     classe_gramatical: str
+
+@dataclass(frozen=True)
+class AnaliseRima:
+    """Resultado da análise de rima de um verso (entidade AnaliseRima)."""
+
+    palavra_final: str
+    fonema_tonico: str
+    classe_gramatical: str

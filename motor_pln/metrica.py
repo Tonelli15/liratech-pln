@@ -6,14 +6,14 @@ Implementa a partição "Análise de Métrica" do diagrama de atividades (Seçã
 
 from motor_pln.preprocessamento import limpar_verso
 from motor_pln.resultados import AnaliseMetrica
-from motor_pln.silabacao import separar_silabas, separar_verso
+from motor_pln.silabacao import separar_verso
 from motor_pln.sinalefa import aplicar_sinalefas
 from motor_pln.tonicidade import (
     OXITONA,
     PAROXITONA,
     PROPAROXITONA,
     TONICIDADES,
-    indice_silaba_tonica,
+    silabas_e_tonica,
 )
 
 # Nome do metro pelo número de sílabas poéticas.
@@ -32,13 +32,6 @@ METROS = {
     12: "dodecassílabo",
 }
 METRO_BARBARO = "verso bárbaro"
-
-# Pronomes átonos que se prendem ao verbo por hífen (entendê-las, amá-lo).
-PRONOMES_ENCLITICOS = frozenset({
-    "o", "a", "os", "as", "lo", "la", "los", "las", "no", "na", "nos", "nas",
-    "me", "te", "se", "lhe", "lhes", "vos",
-})
-
 
 def escandir_verso(verso: str) -> AnaliseMetrica:
     """Executa a análise métrica completa de um verso.
@@ -83,18 +76,11 @@ def tonicidade_da_ultima_palavra(palavra: str) -> str:
 
     Nos compostos, como "guarda-chuva", prevalece a tônica do último elemento.
     """
-    partes = [parte for parte in palavra.split("-") if parte]
-    silabas_encliticas = 0
-    while len(partes) > 1 and partes[-1].lower() in PRONOMES_ENCLITICOS:
-        partes.pop()
-        silabas_encliticas += 1
-
-    silabas = separar_silabas(partes[-1])
-    distancia = len(silabas) - 1 - indice_silaba_tonica(silabas) + silabas_encliticas
+    silabas, tonica = silabas_e_tonica(palavra)
+    distancia = len(silabas) - 1 - tonica
     if distancia >= len(TONICIDADES):
         raise ValueError(f"Tônica impossível em {palavra!r}.")
     return TONICIDADES[distancia]
-
 
 def aplicar_corte_metrico(silabas: list[str], tonicidade: str) -> int:
     """Conta as sílabas poéticas de um verso.
