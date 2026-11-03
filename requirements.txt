@@ -6,6 +6,8 @@ pt_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/pt
 # Camada HTTP do microsserviço
 fastapi[standard]==0.141.1
 pydantic==2.13.5
+starlette==1.8.0
 
 # Testes automatizados
 pytest==9.1.1
+httpx2==2.13.1

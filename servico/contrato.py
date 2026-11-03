@@ -4,8 +4,9 @@ Define o formato JSON trocado com a API REST. Os nomes seguem o padrão
 camelCase, adotado pelo diagrama de classes do TCC e pelo Spring Boot.
 """
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 from pydantic.alias_generators import to_camel
+from motor_pln.preprocessamento import limpar_verso
 
 from motor_pln.resultados import AnaliseVerso
 
@@ -30,6 +31,14 @@ class RequisicaoAnalise(_Esquema):
     model_config = ConfigDict(str_strip_whitespace=True)
 
     verso: str = Field(min_length=1, max_length=TAMANHO_MAXIMO_VERSO)
+    
+    @field_validator("verso")
+    @classmethod
+    def deve_conter_palavras(cls, verso: str) -> str:
+        """Rejeita versos sem nenhuma letra, como "...!" ou "123"."""
+        if not limpar_verso(verso):
+            raise ValueError("O verso não contém palavras.")
+        return verso
 
 
 class MetricaResposta(_Esquema):
@@ -56,6 +65,13 @@ class RespostaAnalise(_Esquema):
     analise_metrica: MetricaResposta | None
     analise_rima: RimaResposta | None
     avisos: list[str]
+    versao_motor: str
+    modelo_spacy: str
+
+class EstadoServico(_Esquema):
+    """Corpo da resposta da verificação de saúde do serviço."""
+
+    status: str
     versao_motor: str
     modelo_spacy: str
 

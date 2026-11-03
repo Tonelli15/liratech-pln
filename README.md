@@ -20,3 +20,20 @@ python -m pip install -r requirements.txt
 ```powershell
 python scripts\verificar_ambiente.py
 ```
+
+## Executar o microsserviço
+
+```powershell
+fastapi dev servico\main.py
+```
+
+A documentação interativa fica em http://127.0.0.1:8000/docs.
+
+## Reproduzir o ambiente exato
+
+```powershell
+python -m pip install -r requirements-lock.txt
+```
+
+O `requirements.txt` lista as dependências escolhidas; o `requirements-lock.txt`
+registra as versões exatas de todas as bibliotecas instaladas.

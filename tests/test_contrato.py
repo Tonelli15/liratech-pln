@@ -46,7 +46,7 @@ def test_requisicao_remove_espacos_das_pontas():
     assert RequisicaoAnalise(verso="  Amor é fogo  ").verso == "Amor é fogo"
 
 
-@pytest.mark.parametrize("verso", ["", "     ", "x" * (TAMANHO_MAXIMO_VERSO + 1)])
-def test_requisicao_rejeita_verso_vazio_ou_longo_demais(verso):
+@pytest.mark.parametrize("verso", ["", "     ", "...!", "x" * (TAMANHO_MAXIMO_VERSO + 1)])
+def test_requisicao_rejeita_verso_invalido(verso):
     with pytest.raises(ValidationError):
         RequisicaoAnalise(verso=verso)
