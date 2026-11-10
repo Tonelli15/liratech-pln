@@ -1,0 +1,4 @@
+# Dependências da avaliação (Seção 3.4): o motor e os modelos maiores do spaCy
+-r requirements.txt
+pt_core_news_md @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_md-3.8.0/pt_core_news_md-3.8.0-py3-none-any.whl
+pt_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.8.0/pt_core_news_lg-3.8.0-py3-none-any.whl

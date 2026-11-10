@@ -1,0 +1,1 @@
+"""Avaliação do motor de PLN sobre o corpus anotado (Seção 3.4 do TCC)."""

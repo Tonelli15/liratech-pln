@@ -1,0 +1,496 @@
+{
+  "gerado_em": "2026-11-10T23:16:35+00:00",
+  "versao_motor": "1.0.0",
+  "ambiente": {
+    "python": "3.14.7",
+    "spacy": "3.8.16"
+  },
+  "corpus": {
+    "arquivo": "corpus/exemplo.csv",
+    "sha256": "216682e70f7e991f0a127a5237e3f247cb7383850ff744c75e5f9a7e373fde95",
+    "versos": 22
+  },
+  "meta_de_tempo_ms": 10.0,
+  "modelos": {
+    "pt_core_news_sm": {
+      "carga_s": 0.48382500000298023,
+      "tempo_por_verso_ms": {
+        "media": 3.4960181880953978,
+        "mediana": 3.4938500029966235,
+        "percentil_95": 4.5430850179400295,
+        "maximo": 4.622300009941682
+      },
+      "meta_de_tempo_cumprida": true,
+      "metricas": {
+        "total": {
+          "escansao": {
+            "acertos": 21,
+            "total": 22,
+            "taxa": 0.9545454545454546,
+            "intervalo_95": [
+              0.7820151050048196,
+              0.9919307806988522
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 21,
+            "1": 1
+          },
+          "classe_gramatical": {
+            "acertos": 20,
+            "total": 22,
+            "taxa": 0.9090909090909091,
+            "intervalo_95": [
+              0.7218461934161421,
+              0.9747051037171622
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 19,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": 1.0,
+            "revocacao": 1.0,
+            "f1": 1.0
+          },
+          "riqueza_da_rima": {
+            "acertos": 17,
+            "total": 19,
+            "taxa": 0.8947368421052632,
+            "intervalo_95": [
+              0.686054495051583,
+              0.9706420586049034
+            ]
+          }
+        },
+        "clássico": {
+          "escansao": {
+            "acertos": 17,
+            "total": 18,
+            "taxa": 0.9444444444444444,
+            "intervalo_95": [
+              0.7424220019799247,
+              0.9901250641690756
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 17,
+            "1": 1
+          },
+          "classe_gramatical": {
+            "acertos": 17,
+            "total": 18,
+            "taxa": 0.9444444444444444,
+            "intervalo_95": [
+              0.7424220019799247,
+              0.9901250641690756
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 19,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": 1.0,
+            "revocacao": 1.0,
+            "f1": 1.0
+          },
+          "riqueza_da_rima": {
+            "acertos": 17,
+            "total": 19,
+            "taxa": 0.8947368421052632,
+            "intervalo_95": [
+              0.686054495051583,
+              0.9706420586049034
+            ]
+          }
+        },
+        "livre": {
+          "escansao": {
+            "acertos": 4,
+            "total": 4,
+            "taxa": 1.0,
+            "intervalo_95": [
+              0.5100999795960008,
+              1.0
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 4
+          },
+          "classe_gramatical": {
+            "acertos": 3,
+            "total": 4,
+            "taxa": 0.75,
+            "intervalo_95": [
+              0.3006360524426366,
+              0.9544139373553637
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 0,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": null,
+            "revocacao": null,
+            "f1": null
+          },
+          "riqueza_da_rima": {
+            "acertos": 0,
+            "total": 0,
+            "taxa": null,
+            "intervalo_95": null
+          }
+        }
+      },
+      "escansao_por_autor": {
+        "Exemplo": {
+          "acertos": 4,
+          "total": 4,
+          "taxa": 1.0,
+          "intervalo_95": [
+            0.5100999795960008,
+            1.0
+          ]
+        },
+        "Gonçalves Dias": {
+          "acertos": 4,
+          "total": 4,
+          "taxa": 1.0,
+          "intervalo_95": [
+            0.5100999795960008,
+            1.0
+          ]
+        },
+        "Luís de Camões": {
+          "acertos": 13,
+          "total": 14,
+          "taxa": 0.9285714285714286,
+          "intervalo_95": [
+            0.6853073044604219,
+            0.9872781138877085
+          ]
+        }
+      }
+    },
+    "pt_core_news_md": {
+      "carga_s": 1.3249603000003844,
+      "tempo_por_verso_ms": {
+        "media": 3.1979318155208603,
+        "mediana": 3.084550000494346,
+        "percentil_95": 3.9306650040089153,
+        "maximo": 4.156799986958504
+      },
+      "meta_de_tempo_cumprida": true,
+      "metricas": {
+        "total": {
+          "escansao": {
+            "acertos": 21,
+            "total": 22,
+            "taxa": 0.9545454545454546,
+            "intervalo_95": [
+              0.7820151050048196,
+              0.9919307806988522
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 21,
+            "1": 1
+          },
+          "classe_gramatical": {
+            "acertos": 20,
+            "total": 22,
+            "taxa": 0.9090909090909091,
+            "intervalo_95": [
+              0.7218461934161421,
+              0.9747051037171622
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 19,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": 1.0,
+            "revocacao": 1.0,
+            "f1": 1.0
+          },
+          "riqueza_da_rima": {
+            "acertos": 17,
+            "total": 19,
+            "taxa": 0.8947368421052632,
+            "intervalo_95": [
+              0.686054495051583,
+              0.9706420586049034
+            ]
+          }
+        },
+        "clássico": {
+          "escansao": {
+            "acertos": 17,
+            "total": 18,
+            "taxa": 0.9444444444444444,
+            "intervalo_95": [
+              0.7424220019799247,
+              0.9901250641690756
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 17,
+            "1": 1
+          },
+          "classe_gramatical": {
+            "acertos": 17,
+            "total": 18,
+            "taxa": 0.9444444444444444,
+            "intervalo_95": [
+              0.7424220019799247,
+              0.9901250641690756
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 19,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": 1.0,
+            "revocacao": 1.0,
+            "f1": 1.0
+          },
+          "riqueza_da_rima": {
+            "acertos": 17,
+            "total": 19,
+            "taxa": 0.8947368421052632,
+            "intervalo_95": [
+              0.686054495051583,
+              0.9706420586049034
+            ]
+          }
+        },
+        "livre": {
+          "escansao": {
+            "acertos": 4,
+            "total": 4,
+            "taxa": 1.0,
+            "intervalo_95": [
+              0.5100999795960008,
+              1.0
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 4
+          },
+          "classe_gramatical": {
+            "acertos": 3,
+            "total": 4,
+            "taxa": 0.75,
+            "intervalo_95": [
+              0.3006360524426366,
+              0.9544139373553637
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 0,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": null,
+            "revocacao": null,
+            "f1": null
+          },
+          "riqueza_da_rima": {
+            "acertos": 0,
+            "total": 0,
+            "taxa": null,
+            "intervalo_95": null
+          }
+        }
+      },
+      "escansao_por_autor": {
+        "Exemplo": {
+          "acertos": 4,
+          "total": 4,
+          "taxa": 1.0,
+          "intervalo_95": [
+            0.5100999795960008,
+            1.0
+          ]
+        },
+        "Gonçalves Dias": {
+          "acertos": 4,
+          "total": 4,
+          "taxa": 1.0,
+          "intervalo_95": [
+            0.5100999795960008,
+            1.0
+          ]
+        },
+        "Luís de Camões": {
+          "acertos": 13,
+          "total": 14,
+          "taxa": 0.9285714285714286,
+          "intervalo_95": [
+            0.6853073044604219,
+            0.9872781138877085
+          ]
+        }
+      }
+    },
+    "pt_core_news_lg": {
+      "carga_s": 1.5950470000097994,
+      "tempo_por_verso_ms": {
+        "media": 3.4961499993435363,
+        "mediana": 3.370199992787093,
+        "percentil_95": 4.281879997870419,
+        "maximo": 4.752600012579933
+      },
+      "meta_de_tempo_cumprida": true,
+      "metricas": {
+        "total": {
+          "escansao": {
+            "acertos": 21,
+            "total": 22,
+            "taxa": 0.9545454545454546,
+            "intervalo_95": [
+              0.7820151050048196,
+              0.9919307806988522
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 21,
+            "1": 1
+          },
+          "classe_gramatical": {
+            "acertos": 20,
+            "total": 22,
+            "taxa": 0.9090909090909091,
+            "intervalo_95": [
+              0.7218461934161421,
+              0.9747051037171622
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 19,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": 1.0,
+            "revocacao": 1.0,
+            "f1": 1.0
+          },
+          "riqueza_da_rima": {
+            "acertos": 17,
+            "total": 19,
+            "taxa": 0.8947368421052632,
+            "intervalo_95": [
+              0.686054495051583,
+              0.9706420586049034
+            ]
+          }
+        },
+        "clássico": {
+          "escansao": {
+            "acertos": 17,
+            "total": 18,
+            "taxa": 0.9444444444444444,
+            "intervalo_95": [
+              0.7424220019799247,
+              0.9901250641690756
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 17,
+            "1": 1
+          },
+          "classe_gramatical": {
+            "acertos": 17,
+            "total": 18,
+            "taxa": 0.9444444444444444,
+            "intervalo_95": [
+              0.7424220019799247,
+              0.9901250641690756
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 19,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": 1.0,
+            "revocacao": 1.0,
+            "f1": 1.0
+          },
+          "riqueza_da_rima": {
+            "acertos": 17,
+            "total": 19,
+            "taxa": 0.8947368421052632,
+            "intervalo_95": [
+              0.686054495051583,
+              0.9706420586049034
+            ]
+          }
+        },
+        "livre": {
+          "escansao": {
+            "acertos": 4,
+            "total": 4,
+            "taxa": 1.0,
+            "intervalo_95": [
+              0.5100999795960008,
+              1.0
+            ]
+          },
+          "diferencas_de_silabas": {
+            "0": 4
+          },
+          "classe_gramatical": {
+            "acertos": 3,
+            "total": 4,
+            "taxa": 0.75,
+            "intervalo_95": [
+              0.3006360524426366,
+              0.9544139373553637
+            ]
+          },
+          "pares_de_rima": {
+            "verdadeiros_positivos": 0,
+            "falsos_positivos": 0,
+            "falsos_negativos": 0,
+            "precisao": null,
+            "revocacao": null,
+            "f1": null
+          },
+          "riqueza_da_rima": {
+            "acertos": 0,
+            "total": 0,
+            "taxa": null,
+            "intervalo_95": null
+          }
+        }
+      },
+      "escansao_por_autor": {
+        "Exemplo": {
+          "acertos": 4,
+          "total": 4,
+          "taxa": 1.0,
+          "intervalo_95": [
+            0.5100999795960008,
+            1.0
+          ]
+        },
+        "Gonçalves Dias": {
+          "acertos": 4,
+          "total": 4,
+          "taxa": 1.0,
+          "intervalo_95": [
+            0.5100999795960008,
+            1.0
+          ]
+        },
+        "Luís de Camões": {
+          "acertos": 13,
+          "total": 14,
+          "taxa": 0.9285714285714286,
+          "intervalo_95": [
+            0.6853073044604219,
+            0.9872781138877085
+          ]
+        }
+      }
+    }
+  }
+}

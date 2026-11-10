@@ -37,3 +37,13 @@ python -m pip install -r requirements-lock.txt
 
 O `requirements.txt` lista as dependências escolhidas; o `requirements-lock.txt`
 registra as versões exatas de todas as bibliotecas instaladas.
+
+## Avaliar o motor sobre o corpus anotado
+
+```powershell
+python -m pip install -r requirements-avaliacao.txt
+python -m avaliacao --corpus corpus\corpus.csv --modelos sm md lg
+```
+
+Os resultados ficam na pasta `resultados`: as métricas em `metricas.json` e as
+divergências em três arquivos CSV, com uma coluna `causa` para a análise manual.
