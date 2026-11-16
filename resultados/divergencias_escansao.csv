@@ -1,2 +1,40 @@
 ﻿id;autor;poema;verso;esperado;obtido;separacao_poetica;causa
-camoes-amor-14;Luís de Camões;Amor é fogo que arde sem se ver;Se tão contrário a si é o mesmo Amor?;10;11;se-tão-con-trá-rioa-si-é-o-mes-moa-mor;
+camoes-sete-anos-03;Luís de Camões;Sete anos de pastor Jacob servia;Mas não servia ao pai, servia a ela,;10;9;mas-não-ser-vi-aao-pai-ser-vi-aae-la;Hiato entre palavras mantido pelo poeta
+camoes-sete-anos-04;Luís de Camões;Sete anos de pastor Jacob servia;E a ela só por prêmio pretendia.;10;9;eae-la-só-por-prê-mio-pre-ten-di-a;Hiato entre palavras mantido pelo poeta
+camoes-sete-anos-10;Luís de Camões;Sete anos de pastor Jacob servia;Lhe fora assi negada a sua pastora,;10;11;lhe-fo-raas-si-ne-ga-daa-su-a-pas-to-ra;Sinérese (fora do escopo)
+camoes-mudam-se-05;Luís de Camões;Mudam-se os tempos, mudam-se as vontades;Continuamente vemos novidades,;10;11;con-ti-nu-a-men-te-ve-mos-no-vi-da-des;Sinérese (fora do escopo)
+camoes-mudam-se-07;Luís de Camões;Mudam-se os tempos, mudam-se as vontades;Do mal ficam as mágoas na lembrança,;10;11;do-mal-fi-cam-as-má-go-as-na-lem-bran-ça;Sinérese (fora do escopo)
+camoes-mudam-se-08;Luís de Camões;Mudam-se os tempos, mudam-se as vontades;E do bem (se algum houve) as saudades.;10;9;e-do-bem-seal-gum-hou-veas-sau-da-des;Hiato entre palavras mantido pelo poeta
+bilac-via-lactea-01-05;Olavo Bilac;Via Láctea, I;E eu olhava-a de baixo, olhava-a... Em cada;10;12;eeu-o-lha-va-a-de-bai-xoo-lha-va-aem-ca-da;Sinalefa através de hífen (não tratada)
+bilac-via-lactea-01-10;Olavo Bilac;Via Láctea, I;Ilusões! sonhos meus! íeis por ela;10;9;i-lu-sões-so-nhos-meus-íeis-por-e-la;Erro de separação silábica: hiato
+bilac-via-lactea-20-07;Olavo Bilac;Via Láctea, XX;As estrelas acendem-se, radiando,;10;11;as-es-tre-las-a-cen-dem-se-ra-di-an-do;Sinérese (fora do escopo)
+bilac-via-lactea-20-08;Olavo Bilac;Via Láctea, XX;Altas, semeadas pelo céu sombrio.;10;11;al-tas-se-me-a-das-pe-lo-céu-som-bri-o;Sinérese (fora do escopo)
+bilac-inania-verba-01;Olavo Bilac;Inania verba;Ah! quem há de exprimir, alma impotente e escrava,;12;13;a-h-quem-há-deex-pri-mir-al-maim-po-ten-teees-cra-va;Erro de separação silábica: h final
+bilac-inania-verba-05;Olavo Bilac;Inania verba;O Pensamento ferve, e é um turbilhão de lava:;12;13;o-pen-sa-men-to-fer-veeé-um-tur-bi-lhão-de-la-va;Sinalefa após vogal tônica (facultativa)
+bilac-inania-verba-06;Olavo Bilac;Inania verba;A Forma, fria e espessa, é um sepulcro de neve...;12;13;a-for-ma-fri-aees-pes-saé-um-se-pul-cro-de-ne-ve;Sinalefa após vogal tônica (facultativa)
+bilac-in-extremis-14;Olavo Bilac;In extremis;Eu, com o frio a crescer no coração, – tão cheio;12;13;eu-com-o-fri-oa-cres-cer-no-co-ra-ção-tão-chei-o;Sinalefa após monossílabo nasal (não tratada)
+machado-circulo-vicioso-01;Machado de Assis;Círculo vicioso;Bailando no ar, gemia inquieto vaga-lume:;12;13;bai-lan-do-noar-ge-mi-ain-qui-e-to-va-ga-lu-me;Sinérese (fora do escopo)
+machado-mundo-interior-04;Machado de Assis;Mundo interior;De sol à ínfima luzerna.;8;7;de-sol-àín-fi-ma-lu-zer-na;Hiato entre palavras mantido pelo poeta
+machado-mundo-interior-07;Machado de Assis;Mundo interior;Feiticeira que ceva uma hidra de Lerna;12;11;fei-ti-cei-ra-que-ce-vau-mahi-dra-de-ler-na;Hiato entre palavras mantido pelo poeta
+machado-mundo-interior-13;Machado de Assis;Mundo interior;E, como o outro, guarda em seu âmbito enorme,;12;11;e-co-mooou-tro-guar-daem-seu-âm-bi-toe-nor-me;Hiato entre palavras mantido pelo poeta
+machado-soneto-de-natal-13;Machado de Assis;Soneto de Natal;Só lhe saiu este pequeno verso:;10;9;só-lhe-saiu-es-te-pe-que-no-ver-so;Erro de separação silábica: hiato
+cruz-risadas-01;Cruz e Sousa;Risadas;Fantasia, ó fantasia, tropo ardente;10;11;fan-ta-si-aó-fan-ta-si-a-tro-poar-den-te;Sinérese (fora do escopo)
+cruz-risadas-08;Cruz e Sousa;Risadas;Por que países meridionais tu andas?!;10;12;por-que-pa-í-ses-me-ri-di-o-nais-tu-an-das;Sinérese (fora do escopo) + Sinalefa após vogal tônica (facultativa)
+cruz-risadas-10;Cruz e Sousa;Risadas;Vem, que desejo emocionar as fibras,;10;11;vem-que-de-se-joe-mo-ci-o-nar-as-fi-bras;Sinérese (fora do escopo)
+elliton-carencia-01;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Longe, oh! olho de vidro;";6;7;lon-geo-h-o-lho-de-vi-dro;Erro de separação silábica: h final
+elliton-carencia-03;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Perto, oh! lábio querido;";6;7;per-too-h-lá-bio-que-ri-do;Erro de separação silábica: h final
+elliton-carencia-05;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Fora, oh! cabelo dourado;";7;8;fo-rao-h-ca-be-lo-dou-ra-do;Erro de separação silábica: h final
+elliton-carencia-07;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Dentro, oh! coração apaixonado;";9;10;den-troo-h-co-ra-ção-a-pai-xo-na-do;Erro de separação silábica: h final
+elliton-carencia-09;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Larga, oh! vastidão de desejo;";8;9;lar-gao-h-vas-ti-dão-de-de-se-jo;Erro de separação silábica: h final
+elliton-carencia-10;Elliton Santos Gomes;Carência em um Lugar Indefinido;Flui intensamente bêbada.;6;7;flui-in-ten-sa-men-te-bê-ba-da;Sinalefa após vogal tônica (facultativa)
+elliton-carencia-11;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Estreita, oh! trajetória até um lampejo;";10;12;es-trei-tao-h-tra-je-tó-riaa-té-um-lam-pe-jo;Erro de separação silábica: h final + Sinalefa após vogal tônica (facultativa)
+elliton-carencia-13;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Alto, oh! crescente medo;";6;7;al-too-h-cres-cen-te-me-do;Erro de separação silábica: h final
+elliton-carencia-15;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Baixo, oh! improvável enredo;";8;9;bai-xoo-h-im-pro-vá-vel-en-re-do;Erro de separação silábica: h final
+elliton-quem-guarda-02;Elliton Santos Gomes;Quem Guarda e Quem Chuva;As pessoas andam de um lado ao outro;10;9;as-pes-so-as-an-dam-deum-la-doaoou-tro;Hiato entre palavras mantido pelo poeta
+elliton-heliponto-15;Elliton Santos Gomes;Heliponto de Mosca;enquanto o ego encera.;6;5;en-quan-tooe-goen-ce-ra;Hiato entre palavras mantido pelo poeta
+elliton-heliponto-37;Elliton Santos Gomes;Heliponto de Mosca;vem-vai dia, fica-inteira noite.;9;10;vem-vai-di-a-fi-ca-in-tei-ra-noi-te;Sinalefa através de hífen (não tratada)
+elliton-concretizacao-12;Elliton Santos Gomes;Concretização;o mundo continuará a matinê.;11;12;o-mun-do-con-ti-nu-a-rá-a-ma-ti-nê;Sinalefa após vogal tônica (facultativa)
+elliton-concretizacao-29;Elliton Santos Gomes;Concretização;"Concreto, cinza, suor;";7;6;con-cre-to-cin-za-suor;Erro de separação silábica: hiato
+elliton-concretizacao-33;Elliton Santos Gomes;Concretização;Pisque e o alarme soa sem fim, enfim.;11;10;pis-queeoa-lar-me-so-a-sem-fim-en-fim;Hiato entre palavras mantido pelo poeta
+elliton-in-and-out-27;Elliton Santos Gomes;In and Out;daquele outdoor;4;5;da-que-leout-do-or;Palavra estrangeira
+elliton-in-and-out-46;Elliton Santos Gomes;In and Out;para errar até o final,;7;8;pa-raer-rar-a-té-o-fi-nal;Sinalefa após vogal tônica (facultativa)

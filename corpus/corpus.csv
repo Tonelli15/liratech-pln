@@ -1,0 +1,403 @@
+id,subcorpus,autor,poema,verso,silabas_esperadas,classe_esperada,rima_esperada
+camoes-sete-anos-01,clássico,Luís de Camões,Sete anos de pastor Jacob servia,Sete anos de pastor Jacó servia,10,verbo,A
+camoes-sete-anos-02,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Labão, pai de Raquel, serrana bela,",10,adjetivo,B
+camoes-sete-anos-03,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Mas não servia ao pai, servia a ela,",10,pronome,B
+camoes-sete-anos-04,clássico,Luís de Camões,Sete anos de pastor Jacob servia,E a ela só por prêmio pretendia.,10,verbo,A
+camoes-sete-anos-05,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Os dias, na esperança de um só dia,",10,substantivo,A
+camoes-sete-anos-06,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Passava, contentando-se com vê-la,",10,verbo,B
+camoes-sete-anos-07,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Porém o pai, usando de cautela,",10,substantivo,B
+camoes-sete-anos-08,clássico,Luís de Camões,Sete anos de pastor Jacob servia,Em lugar de Raquel lhe dava Lia.,10,substantivo,A
+camoes-sete-anos-09,clássico,Luís de Camões,Sete anos de pastor Jacob servia,Vendo o triste pastor que com enganos,10,substantivo,C
+camoes-sete-anos-10,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Lhe fora assi negada a sua pastora,",10,substantivo,D
+camoes-sete-anos-11,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Como se a não tivera merecida,",10,verbo,E
+camoes-sete-anos-12,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"Começa de servir outros set’anos,",10,substantivo,C
+camoes-sete-anos-13,clássico,Luís de Camões,Sete anos de pastor Jacob servia,"dizendo: Mais servira, se não fora",10,verbo,D
+camoes-sete-anos-14,clássico,Luís de Camões,Sete anos de pastor Jacob servia,Pera tão longo amor tão curta a vida.,10,substantivo,E
+camoes-mudam-se-01,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Mudam-se os tempos, mudam-se as vontades,",10,substantivo,A
+camoes-mudam-se-02,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Muda-se o ser, muda-se a confiança,",10,substantivo,B
+camoes-mudam-se-03,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Todo o mundo é composto de mudança,",10,substantivo,B
+camoes-mudam-se-04,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Tomando sempre novas qualidades,",10,substantivo,A
+camoes-mudam-se-05,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Continuamente vemos novidades,",10,substantivo,A
+camoes-mudam-se-06,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Diferentes em tudo da esperança,",10,substantivo,B
+camoes-mudam-se-07,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Do mal ficam as mágoas na lembrança,",10,substantivo,B
+camoes-mudam-se-08,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades",E do bem (se algum houve) as saudades.,10,substantivo,A
+camoes-mudam-se-09,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","O tempo cobre o chão de verde manto,",10,substantivo,C
+camoes-mudam-se-10,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Que já coberto foi de neve fria,",10,adjetivo,D
+camoes-mudam-se-11,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades",E enfim converte em choro o doce canto.,10,substantivo,C
+camoes-mudam-se-12,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","E afora este mudar-se cada dia,",10,substantivo,D
+camoes-mudam-se-13,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades","Outra mudança faz de mor espanto,",10,substantivo,C
+camoes-mudam-se-14,clássico,Luís de Camões,"Mudam-se os tempos, mudam-se as vontades",Que não se muda já como soía.,10,verbo,D
+camoes-busque-amor-01,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Busque Amor novas artes, novo engenho,",10,substantivo,A
+camoes-busque-amor-02,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Pera matar-me e novas esquivanças,",10,substantivo,B
+camoes-busque-amor-03,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Que não pode tirar-me as esperanças,",10,substantivo,B
+camoes-busque-amor-04,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho",Que mal me tirará o que eu não tenho.,10,verbo,A
+camoes-busque-amor-05,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Olhai de que esperanças me mantenho,",10,verbo,A
+camoes-busque-amor-06,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Vede que perigosas seguranças,",10,substantivo,B
+camoes-busque-amor-07,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Que não temo contrastes, nem mudanças",10,substantivo,B
+camoes-busque-amor-08,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Andando em bravo mar, perdido o lenho.",10,substantivo,A
+camoes-busque-amor-09,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho",Mas conquanto não pode haver desgosto,10,substantivo,C
+camoes-busque-amor-10,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Onde esperança falta, lá m’esconde",10,verbo,D
+camoes-busque-amor-11,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Amor um mal, que mata e não se vê;",10,verbo,E
+camoes-busque-amor-12,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho",Que dias há que n’alma me tem posto,10,verbo,C
+camoes-busque-amor-13,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Um não sei quê, que nasce não sei onde,",10,advérbio,D
+camoes-busque-amor-14,clássico,Luís de Camões,"Busque Amor novas artes, novo engenho","Vem não sei como, e dói não sei porquê.",10,advérbio,E
+bocage-magro-01,clássico,Bocage,"Magro, de olhos azuis, carão moreno","Magro, de olhos azuis, carão moreno,",10,adjetivo,A
+bocage-magro-02,clássico,Bocage,"Magro, de olhos azuis, carão moreno","Bem servido de pés, meão n’altura,",10,substantivo,B
+bocage-magro-03,clássico,Bocage,"Magro, de olhos azuis, carão moreno","Triste de facha, o mesmo de figura,",10,substantivo,B
+bocage-magro-04,clássico,Bocage,"Magro, de olhos azuis, carão moreno","Nariz alto no meio, e não pequeno;",10,adjetivo,A
+bocage-magro-05,clássico,Bocage,"Magro, de olhos azuis, carão moreno","Incapaz de assistir num só terreno,",10,substantivo,A
+bocage-magro-06,clássico,Bocage,"Magro, de olhos azuis, carão moreno","Mais propenso ao furor do que à ternura,",10,substantivo,B
+bocage-magro-07,clássico,Bocage,"Magro, de olhos azuis, carão moreno",Bebendo em níveas mãos por taça escura,10,adjetivo,B
+bocage-magro-08,clássico,Bocage,"Magro, de olhos azuis, carão moreno",De zelos infernais letal veneno;,10,substantivo,A
+bocage-magro-09,clássico,Bocage,"Magro, de olhos azuis, carão moreno",Devoto incensador de mil deidades,10,substantivo,C
+bocage-magro-10,clássico,Bocage,"Magro, de olhos azuis, carão moreno","(Digo de moças mil) num só momento,",10,substantivo,D
+bocage-magro-11,clássico,Bocage,"Magro, de olhos azuis, carão moreno",E somente no altar amando os frades;,10,substantivo,C
+bocage-magro-12,clássico,Bocage,"Magro, de olhos azuis, carão moreno",Eis Bocage em quem luz algum talento:,10,substantivo,D
+bocage-magro-13,clássico,Bocage,"Magro, de olhos azuis, carão moreno",Saíram dele mesmo estas verdades,10,substantivo,C
+bocage-magro-14,clássico,Bocage,"Magro, de olhos azuis, carão moreno",Num dia em que se achou mais pachorrento.,10,adjetivo,D
+alvares-palida-01,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria","Pálida, à luz da lâmpada sombria,",10,adjetivo,A
+alvares-palida-02,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria","Sobre o leito de flores reclinada,",10,adjetivo,B
+alvares-palida-03,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria","Como a lua por noite embalsamada,",10,adjetivo,B
+alvares-palida-04,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Entre as nuvens do amor ela dormia!,10,verbo,A
+alvares-palida-05,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Era a virgem do mar! Na escuma fria,10,adjetivo,A
+alvares-palida-06,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Pela maré das águas embalada...,10,adjetivo,B
+alvares-palida-07,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",— Era um anjo entre nuvens d’alvorada,10,substantivo,B
+alvares-palida-08,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Que em sonhos se banhava e se esquecia!,10,verbo,A
+alvares-palida-09,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Era mais bela! O seio palpitando...,10,verbo,C
+alvares-palida-10,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Negros olhos as pálpebras abrindo...,10,verbo,D
+alvares-palida-11,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Formas nuas no leito resvalando...,10,verbo,C
+alvares-palida-12,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria","Não te rias de mim, meu anjo lindo!",10,adjetivo,D
+alvares-palida-13,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Por ti — as noites eu velei chorando,10,verbo,C
+alvares-palida-14,clássico,Álvares de Azevedo,"Pálida, à luz da lâmpada sombria",Por ti — nos sonhos morrerei sorrindo!,10,verbo,D
+bilac-via-lactea-01-01,clássico,Olavo Bilac,"Via Láctea, I","Talvez sonhasse, quando a vi. Mas via",10,verbo,A
+bilac-via-lactea-01-02,clássico,Olavo Bilac,"Via Láctea, I","Que, aos raios do luar iluminada,",10,adjetivo,B
+bilac-via-lactea-01-03,clássico,Olavo Bilac,"Via Láctea, I",Entre as estrelas trêmulas subia,10,verbo,A
+bilac-via-lactea-01-04,clássico,Olavo Bilac,"Via Láctea, I",Uma infinita e cintilante escada.,10,substantivo,B
+bilac-via-lactea-01-05,clássico,Olavo Bilac,"Via Láctea, I","E eu olhava-a de baixo, olhava-a... Em cada",10,pronome,B
+bilac-via-lactea-01-06,clássico,Olavo Bilac,"Via Láctea, I","Degrau, que o ouro mais límpido vestia,",10,verbo,A
+bilac-via-lactea-01-07,clássico,Olavo Bilac,"Via Láctea, I","Mudo e sereno, um anjo a harpa doirada,",10,adjetivo,B
+bilac-via-lactea-01-08,clássico,Olavo Bilac,"Via Láctea, I","Ressoante de súplicas, feria...",10,verbo,A
+bilac-via-lactea-01-09,clássico,Olavo Bilac,"Via Láctea, I","Tu, mãe sagrada! vós também, formosas",10,adjetivo,C
+bilac-via-lactea-01-10,clássico,Olavo Bilac,"Via Láctea, I",Ilusões! sonhos meus! íeis por ela,10,pronome,D
+bilac-via-lactea-01-11,clássico,Olavo Bilac,"Via Láctea, I",Como um bando de sombras vaporosas.,10,adjetivo,C
+bilac-via-lactea-01-12,clássico,Olavo Bilac,"Via Láctea, I","E, ó meu amor! eu te buscava, quando",10,conjunção,E
+bilac-via-lactea-01-13,clássico,Olavo Bilac,"Via Láctea, I","Vi que no alto surgias, calma e bela,",10,adjetivo,D
+bilac-via-lactea-01-14,clássico,Olavo Bilac,"Via Láctea, I",O olhar celeste para o meu baixando...,10,verbo,E
+bilac-via-lactea-20-01,clássico,Olavo Bilac,"Via Láctea, XX",Olha-me! O teu olhar sereno e brando,10,adjetivo,A
+bilac-via-lactea-20-02,clássico,Olavo Bilac,"Via Láctea, XX","Entra-me o peito, como um largo rio",10,substantivo,B
+bilac-via-lactea-20-03,clássico,Olavo Bilac,"Via Láctea, XX","De ondas de ouro e de luz, límpido, entrando",10,verbo,A
+bilac-via-lactea-20-04,clássico,Olavo Bilac,"Via Láctea, XX",O ermo de um bosque tenebroso e frio.,10,adjetivo,B
+bilac-via-lactea-20-05,clássico,Olavo Bilac,"Via Láctea, XX","Fala-me! Em grupos doudejantes, quando",10,conjunção,A
+bilac-via-lactea-20-06,clássico,Olavo Bilac,"Via Láctea, XX","Falas, por noites cálidas de estio,",10,substantivo,B
+bilac-via-lactea-20-07,clássico,Olavo Bilac,"Via Láctea, XX","As estrelas acendem-se, radiando,",10,verbo,A
+bilac-via-lactea-20-08,clássico,Olavo Bilac,"Via Láctea, XX","Altas, semeadas pelo céu sombrio.",10,adjetivo,B
+bilac-via-lactea-20-09,clássico,Olavo Bilac,"Via Láctea, XX",Olha-me assim! Fala-me assim! De pranto,10,substantivo,C
+bilac-via-lactea-20-10,clássico,Olavo Bilac,"Via Láctea, XX","Agora, agora de ternura cheia,",10,adjetivo,D
+bilac-via-lactea-20-11,clássico,Olavo Bilac,"Via Láctea, XX",Abre em chispas de fogo essa pupila...,10,substantivo,E
+bilac-via-lactea-20-12,clássico,Olavo Bilac,"Via Láctea, XX","E enquanto eu ardo em sua luz, enquanto",10,conjunção,C
+bilac-via-lactea-20-13,clássico,Olavo Bilac,"Via Láctea, XX","Em seu fulgor me abraso, uma sereia",10,substantivo,D
+bilac-via-lactea-20-14,clássico,Olavo Bilac,"Via Láctea, XX",Soluce e cante nessa voz tranquila!,10,adjetivo,E
+bilac-nel-mezzo-01,clássico,Olavo Bilac,Nel mezzo del camin...,Cheguei. Chegaste. Vinhas fatigada,10,adjetivo,A
+bilac-nel-mezzo-02,clássico,Olavo Bilac,Nel mezzo del camin...,"E triste, e triste e fatigado eu vinha.",10,verbo,B
+bilac-nel-mezzo-03,clássico,Olavo Bilac,Nel mezzo del camin...,"Tinhas a alma de sonhos povoada,",10,adjetivo,A
+bilac-nel-mezzo-04,clássico,Olavo Bilac,Nel mezzo del camin...,E a alma de sonhos povoada eu tinha...,10,verbo,B
+bilac-nel-mezzo-05,clássico,Olavo Bilac,Nel mezzo del camin...,E paramos de súbito na estrada,10,substantivo,A
+bilac-nel-mezzo-06,clássico,Olavo Bilac,Nel mezzo del camin...,"Da vida: longos anos, presa à minha",10,pronome,B
+bilac-nel-mezzo-07,clássico,Olavo Bilac,Nel mezzo del camin...,A tua mão; a vista deslumbrada,10,adjetivo,A
+bilac-nel-mezzo-08,clássico,Olavo Bilac,Nel mezzo del camin...,Tive da luz que teu olhar continha.,10,verbo,B
+bilac-nel-mezzo-09,clássico,Olavo Bilac,Nel mezzo del camin...,"Hoje, segues de novo... Na partida",10,substantivo,C
+bilac-nel-mezzo-10,clássico,Olavo Bilac,Nel mezzo del camin...,"Nem o pranto os teus olhos umedece,",10,verbo,D
+bilac-nel-mezzo-11,clássico,Olavo Bilac,Nel mezzo del camin...,Nem te comove a dor da despedida.,10,substantivo,C
+bilac-nel-mezzo-12,clássico,Olavo Bilac,Nel mezzo del camin...,"E eu, solitário, volto a face, e tremo,",10,verbo,E
+bilac-nel-mezzo-13,clássico,Olavo Bilac,Nel mezzo del camin...,Vendo o teu vulto que desaparece,10,verbo,D
+bilac-nel-mezzo-14,clássico,Olavo Bilac,Nel mezzo del camin...,Na extrema curva do caminho extremo.,10,adjetivo,E
+bilac-inania-verba-01,clássico,Olavo Bilac,Inania verba,"Ah! quem há de exprimir, alma impotente e escrava,",12,adjetivo,A
+bilac-inania-verba-02,clássico,Olavo Bilac,Inania verba,"O que a boca não diz, o que a mão não escreve?",12,verbo,B
+bilac-inania-verba-03,clássico,Olavo Bilac,Inania verba,"– Ardes, sangras, pregada à tua cruz, e, em breve,",12,adjetivo,B
+bilac-inania-verba-04,clássico,Olavo Bilac,Inania verba,"Olhas, desfeito em lodo, o que te deslumbrava...",12,verbo,A
+bilac-inania-verba-05,clássico,Olavo Bilac,Inania verba,"O Pensamento ferve, e é um turbilhão de lava:",12,substantivo,A
+bilac-inania-verba-06,clássico,Olavo Bilac,Inania verba,"A Forma, fria e espessa, é um sepulcro de neve...",12,substantivo,B
+bilac-inania-verba-07,clássico,Olavo Bilac,Inania verba,"E a Palavra pesada abafa a Ideia leve,",12,adjetivo,B
+bilac-inania-verba-08,clássico,Olavo Bilac,Inania verba,"Que, perfume e clarão, refulgia e voava.",12,verbo,A
+bilac-inania-verba-09,clássico,Olavo Bilac,Inania verba,Quem o molde achará para a expressão de tudo?,12,pronome,C
+bilac-inania-verba-10,clássico,Olavo Bilac,Inania verba,Ai! quem há de dizer as ânsias infinitas,12,adjetivo,D
+bilac-inania-verba-11,clássico,Olavo Bilac,Inania verba,Do sonho? e o céu que foge à mão que se levanta?,12,verbo,E
+bilac-inania-verba-12,clássico,Olavo Bilac,Inania verba,E a ira muda? e o asco mudo? e o desespero mudo?,12,adjetivo,C
+bilac-inania-verba-13,clássico,Olavo Bilac,Inania verba,E as palavras de fé que nunca foram ditas?,12,verbo,D
+bilac-inania-verba-14,clássico,Olavo Bilac,Inania verba,E as confissões de amor que morrem na garganta?!,12,substantivo,E
+bilac-in-extremis-01,clássico,Olavo Bilac,In extremis,Nunca morrer assim! Nunca morrer num dia,12,substantivo,A
+bilac-in-extremis-02,clássico,Olavo Bilac,In extremis,Assim! de um sol assim!,6,advérbio,B
+bilac-in-extremis-03,clássico,Olavo Bilac,In extremis,"Tu, desgrenhada e fria,",6,adjetivo,A
+bilac-in-extremis-04,clássico,Olavo Bilac,In extremis,"Fria! postos nos meus os teus olhos molhados,",12,adjetivo,C
+bilac-in-extremis-05,clássico,Olavo Bilac,In extremis,E apertando nos teus os meus dedos gelados...,12,adjetivo,C
+bilac-in-extremis-06,clássico,Olavo Bilac,In extremis,E um dia assim! de um sol assim! E assim a esfera,12,substantivo,D
+bilac-in-extremis-07,clássico,Olavo Bilac,In extremis,"Toda azul, no esplendor do fim da primavera!",12,substantivo,D
+bilac-in-extremis-08,clássico,Olavo Bilac,In extremis,"Asas, tontas de luz, cortando o firmamento!",12,substantivo,E
+bilac-in-extremis-09,clássico,Olavo Bilac,In extremis,Ninhos cantando! Em flor a terra toda! O vento,12,substantivo,E
+bilac-in-extremis-10,clássico,Olavo Bilac,In extremis,"Despencando os rosais, sacudindo o arvoredo...",12,substantivo,F
+bilac-in-extremis-11,clássico,Olavo Bilac,In extremis,"E, aqui dentro, o silêncio... E este espanto! e este medo!",12,substantivo,F
+bilac-in-extremis-12,clássico,Olavo Bilac,In extremis,"Nós dois... e, entre nós dois, implacável e forte,",12,adjetivo,G
+bilac-in-extremis-13,clássico,Olavo Bilac,In extremis,"A arredar-me de ti, cada vez mais, a morte...",12,substantivo,G
+bilac-in-extremis-14,clássico,Olavo Bilac,In extremis,"Eu, com o frio a crescer no coração, – tão cheio",12,adjetivo,H
+bilac-in-extremis-15,clássico,Olavo Bilac,In extremis,"De ti, até no horror do derradeiro anseio!",12,substantivo,H
+bilac-in-extremis-16,clássico,Olavo Bilac,In extremis,"Tu, vendo retorcer-se amarguradamente,",12,advérbio,I
+bilac-in-extremis-17,clássico,Olavo Bilac,In extremis,"A boca que beijava a tua boca ardente,",12,adjetivo,I
+bilac-in-extremis-18,clássico,Olavo Bilac,In extremis,A boca que foi tua!,6,pronome,J
+bilac-in-extremis-19,clássico,Olavo Bilac,In extremis,E eu morrendo! e eu morrendo,6,verbo,K
+bilac-in-extremis-20,clássico,Olavo Bilac,In extremis,"Vendo-te, e vendo o sol, e vendo o céu, e vendo",12,verbo,K
+bilac-in-extremis-21,clássico,Olavo Bilac,In extremis,"Tão bela palpitar nos teus olhos, querida,",12,adjetivo,L
+bilac-in-extremis-22,clássico,Olavo Bilac,In extremis,A delícia da vida! a delícia da vida!,12,substantivo,L
+machado-circulo-vicioso-01,clássico,Machado de Assis,Círculo vicioso,"Bailando no ar, gemia inquieto vaga-lume:",12,substantivo,A
+machado-circulo-vicioso-02,clássico,Machado de Assis,Círculo vicioso,"--“ Quem me dera que fosse aquela loura estrela,",12,substantivo,B
+machado-circulo-vicioso-03,clássico,Machado de Assis,Círculo vicioso,"Que arde no eterno azul, como uma eterna vela!”",12,substantivo,B
+machado-circulo-vicioso-04,clássico,Machado de Assis,Círculo vicioso,"Mas a estrela, fitando a lua, com ciúme:",12,substantivo,A
+machado-circulo-vicioso-05,clássico,Machado de Assis,Círculo vicioso,"-- “ Pudesse eu copiar o transparente lume,",12,substantivo,A
+machado-circulo-vicioso-06,clássico,Machado de Assis,Círculo vicioso,"Que, da grega coluna à gótica janela,",12,substantivo,B
+machado-circulo-vicioso-07,clássico,Machado de Assis,Círculo vicioso,"Contemplou, suspirosa, a fronte amada e bela!”",12,adjetivo,B
+machado-circulo-vicioso-08,clássico,Machado de Assis,Círculo vicioso,"Mas a lua, fitando o sol, com azedume:",12,substantivo,A
+machado-circulo-vicioso-09,clássico,Machado de Assis,Círculo vicioso,"-- “Mísera! tivesse eu aquela enorme, aquela",12,pronome,B
+machado-circulo-vicioso-10,clássico,Machado de Assis,Círculo vicioso,"Claridade imortal, que toda a luz resume!”",12,verbo,A
+machado-circulo-vicioso-11,clássico,Machado de Assis,Círculo vicioso,"Mas o sol, inclinando a rútila capela:",12,substantivo,B
+machado-circulo-vicioso-12,clássico,Machado de Assis,Círculo vicioso,--”Pesa-me esta brilhante auréola de nume...,12,substantivo,A
+machado-circulo-vicioso-13,clássico,Machado de Assis,Círculo vicioso,Enfara-me esta azul e desmedida umbela...,12,substantivo,B
+machado-circulo-vicioso-14,clássico,Machado de Assis,Círculo vicioso,Porque não nasci eu um simples vaga-lume?”,12,substantivo,A
+machado-mundo-interior-01,clássico,Machado de Assis,Mundo interior,Ouço que a natureza é uma lauda eterna,12,adjetivo,A
+machado-mundo-interior-02,clássico,Machado de Assis,Mundo interior,"De pompa, de fulgor, de movimento e lida,",12,substantivo,B
+machado-mundo-interior-03,clássico,Machado de Assis,Mundo interior,"Uma escala de luz, uma escala de vida",12,substantivo,B
+machado-mundo-interior-04,clássico,Machado de Assis,Mundo interior,De sol à ínfima luzerna.,8,substantivo,A
+machado-mundo-interior-05,clássico,Machado de Assis,Mundo interior,"Ouço que a natureza, -- a natureza externa--",12,adjetivo,A
+machado-mundo-interior-06,clássico,Machado de Assis,Mundo interior,"Tem o olhar que namora, e o gesto que intimida,",12,verbo,B
+machado-mundo-interior-07,clássico,Machado de Assis,Mundo interior,Feiticeira que ceva uma hidra de Lerna,12,substantivo,A
+machado-mundo-interior-08,clássico,Machado de Assis,Mundo interior,Entre as flores da bela Armida.,8,substantivo,B
+machado-mundo-interior-09,clássico,Machado de Assis,Mundo interior,"E contudo, se fecho os olhos, e mergulho",12,verbo,C
+machado-mundo-interior-10,clássico,Machado de Assis,Mundo interior,"Dentro de mim, vejo à luz de outro sol, outro abismo,",13,substantivo,D
+machado-mundo-interior-11,clássico,Machado de Assis,Mundo interior,"Em que um mundo mais vasto, armado de outro orgulho,",12,substantivo,C
+machado-mundo-interior-12,clássico,Machado de Assis,Mundo interior,"Rola a vida imortal e o eterno cataclismo,",12,substantivo,D
+machado-mundo-interior-13,clássico,Machado de Assis,Mundo interior,"E, como o outro, guarda em seu âmbito enorme,",12,adjetivo,E
+machado-mundo-interior-14,clássico,Machado de Assis,Mundo interior,"Um segredo que atrai, que desafia – e dorme.",12,verbo,E
+machado-soneto-de-natal-01,clássico,Machado de Assis,Soneto de Natal,"Um homem,--era aquela noite amiga,",10,adjetivo,A
+machado-soneto-de-natal-02,clássico,Machado de Assis,Soneto de Natal,"Noite cristã, berço do Nazareno,--",10,substantivo,B
+machado-soneto-de-natal-03,clássico,Machado de Assis,Soneto de Natal,"Ao relembrar os dias de pequeno,",10,adjetivo,B
+machado-soneto-de-natal-04,clássico,Machado de Assis,Soneto de Natal,"E a viva dança, e a lépida cantiga,",10,substantivo,A
+machado-soneto-de-natal-05,clássico,Machado de Assis,Soneto de Natal,Quis transportar ao verso doce e ameno,10,adjetivo,B
+machado-soneto-de-natal-06,clássico,Machado de Assis,Soneto de Natal,"As sensações da sua idade antiga,",10,adjetivo,A
+machado-soneto-de-natal-07,clássico,Machado de Assis,Soneto de Natal,"Naquela mesma velha noite amiga,",10,adjetivo,A
+machado-soneto-de-natal-08,clássico,Machado de Assis,Soneto de Natal,"Noite cristã, berço do Nazareno.",10,substantivo,B
+machado-soneto-de-natal-09,clássico,Machado de Assis,Soneto de Natal,Escolheu o soneto...A folha branca,10,adjetivo,C
+machado-soneto-de-natal-10,clássico,Machado de Assis,Soneto de Natal,"Pede-lhe a inspiração; mas, frouxa e manca,",10,adjetivo,C
+machado-soneto-de-natal-11,clássico,Machado de Assis,Soneto de Natal,A pena não acode ao gesto seu.,10,pronome,D
+machado-soneto-de-natal-12,clássico,Machado de Assis,Soneto de Natal,"E, em vão lutando contra o metro adverso,",10,adjetivo,E
+machado-soneto-de-natal-13,clássico,Machado de Assis,Soneto de Natal,Só lhe saiu este pequeno verso:,10,substantivo,E
+machado-soneto-de-natal-14,clássico,Machado de Assis,Soneto de Natal,“Mudaria o Natal ou mudei eu?”,10,pronome,D
+machado-suave-mari-magno-01,clássico,Machado de Assis,Suave mari magno,"Lembra-me que, em certo dia,",7,substantivo,A
+machado-suave-mari-magno-02,clássico,Machado de Assis,Suave mari magno,"Na rua, ao sol de verão,",7,substantivo,B
+machado-suave-mari-magno-03,clássico,Machado de Assis,Suave mari magno,Envenenado morria,7,verbo,A
+machado-suave-mari-magno-04,clássico,Machado de Assis,Suave mari magno,Um pobre cão.,4,substantivo,B
+machado-suave-mari-magno-05,clássico,Machado de Assis,Suave mari magno,"Arfava, espumava e ria,",7,verbo,A
+machado-suave-mari-magno-06,clássico,Machado de Assis,Suave mari magno,"De um riso espúrio e bufão,",7,adjetivo,B
+machado-suave-mari-magno-07,clássico,Machado de Assis,Suave mari magno,Ventre e pernas sacudia,7,verbo,A
+machado-suave-mari-magno-08,clássico,Machado de Assis,Suave mari magno,Na convulsão.,4,substantivo,B
+machado-suave-mari-magno-09,clássico,Machado de Assis,Suave mari magno,"Nenhum, nenhum curioso",7,adjetivo,C
+machado-suave-mari-magno-10,clássico,Machado de Assis,Suave mari magno,"Passava, sem se deter,",7,verbo,D
+machado-suave-mari-magno-11,clássico,Machado de Assis,Suave mari magno,"Silencioso,",4,adjetivo,C
+machado-suave-mari-magno-12,clássico,Machado de Assis,Suave mari magno,"Junto ao cão que ia morrer,",7,verbo,D
+machado-suave-mari-magno-13,clássico,Machado de Assis,Suave mari magno,Como se lhe desse gozo,7,substantivo,C
+machado-suave-mari-magno-14,clássico,Machado de Assis,Suave mari magno,Ver padecer.,4,verbo,D
+cruz-risadas-01,clássico,Cruz e Sousa,Risadas,"Fantasia, ó fantasia, tropo ardente",10,adjetivo,A
+cruz-risadas-02,clássico,Cruz e Sousa,Risadas,Da aurora alegre undiflavando as bandas,10,substantivo,B
+cruz-risadas-03,clássico,Cruz e Sousa,Risadas,"Do adamascado e rúbido oriente,",10,substantivo,A
+cruz-risadas-04,clássico,Cruz e Sousa,Risadas,"Ó fantasia, águia das asas pandas.",10,adjetivo,B
+cruz-risadas-05,clássico,Cruz e Sousa,Risadas,Tu que os clarins do sonho mais fulgente,10,adjetivo,A
+cruz-risadas-06,clássico,Cruz e Sousa,Risadas,"Das Julietas, feres, nas varandas,",10,substantivo,B
+cruz-risadas-07,clássico,Cruz e Sousa,Risadas,"Ó fantasia dos Romeus, ó crente,",10,adjetivo,A
+cruz-risadas-08,clássico,Cruz e Sousa,Risadas,Por que países meridionais tu andas?!,10,verbo,B
+cruz-risadas-09,clássico,Cruz e Sousa,Risadas,"Vem das esferas, entre os sons que vibras.",10,verbo,C
+cruz-risadas-10,clássico,Cruz e Sousa,Risadas,"Vem, que desejo emocionar as fibras,",10,substantivo,C
+cruz-risadas-11,clássico,Cruz e Sousa,Risadas,Quero sentir como este sangue impulsas.,10,verbo,D
+cruz-risadas-12,clássico,Cruz e Sousa,Risadas,Noiva do sol que os sóis preclaros gozas,10,verbo,E
+cruz-risadas-13,clássico,Cruz e Sousa,Risadas,"Para rimar umas canções de rosas,",10,substantivo,E
+cruz-risadas-14,clássico,Cruz e Sousa,Risadas,"Como risadas de cristal, avulsas...",10,adjetivo,D
+elliton-carencia-01,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Longe, oh! olho de vidro;",6,substantivo,A
+elliton-carencia-02,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Vidra meu distante olhar.,7,substantivo,B
+elliton-carencia-03,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Perto, oh! lábio querido;",6,adjetivo,I
+elliton-carencia-04,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Passa a lábia ao chamar.,6,verbo,B
+elliton-carencia-05,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Fora, oh! cabelo dourado;",7,adjetivo,C
+elliton-carencia-06,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Cristaliza um bem-querer.,7,substantivo,D
+elliton-carencia-07,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Dentro, oh! coração apaixonado;",9,adjetivo,C
+elliton-carencia-08,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Reage com você.,6,pronome,J
+elliton-carencia-09,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Larga, oh! vastidão de desejo;",8,substantivo,E
+elliton-carencia-10,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Flui intensamente bêbada.,6,adjetivo,F
+elliton-carencia-11,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Estreita, oh! trajetória até um lampejo;",10,substantivo,E
+elliton-carencia-12,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Circunda esta ardente labareda.,9,substantivo,K
+elliton-carencia-13,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Alto, oh! crescente medo;",6,substantivo,G
+elliton-carencia-14,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Apavora um sujeito leal.,9,adjetivo,H
+elliton-carencia-15,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,"Baixo, oh! improvável enredo;",8,substantivo,G
+elliton-carencia-16,livre,Elliton Santos Gomes,Carência em um Lugar Indefinido,Deseja um impossível final.,9,substantivo,H
+elliton-desculpas-01,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Joguei-me aos lobos,4,substantivo,A
+elliton-desculpas-02,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",por sentimentos bobos.,6,adjetivo,A
+elliton-desculpas-03,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Sofro em silêncio,4,substantivo,B
+elliton-desculpas-04,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",pelo próprio senso.,5,substantivo,M
+elliton-desculpas-05,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Senso de perigo,5,substantivo,C
+elliton-desculpas-06,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores","que carrego comigo,",6,pronome,C
+elliton-desculpas-07,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",aceito a situação,7,substantivo,D
+elliton-desculpas-08,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",e não ouço seu perdão.,7,substantivo,D
+elliton-desculpas-09,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Abominação abrigada abalável.,11,adjetivo,E
+elliton-desculpas-10,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Imaturidade imoral imunda.,10,adjetivo,F
+elliton-desculpas-11,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Inatividade infundada inundável.,11,adjetivo,E
+elliton-desculpas-12,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Afeição afinal afunda.,8,verbo,F
+elliton-desculpas-13,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores","Calmaria, claridade!",7,substantivo,G
+elliton-desculpas-14,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores","Tensão, inatividade…",7,substantivo,G
+elliton-desculpas-15,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Reversão impossibilitada.,9,adjetivo,H
+elliton-desculpas-16,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Cidade desconhecida…,7,adjetivo,I
+elliton-desculpas-17,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Isenção imatura.,6,adjetivo,J
+elliton-desculpas-18,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Zumbido perdura.,5,verbo,J
+elliton-desculpas-19,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Psicológico presencia,8,verbo,K
+elliton-desculpas-20,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",aversão sombria.,5,adjetivo,K
+elliton-desculpas-21,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Crosta cronicamente cremada.,9,adjetivo,H
+elliton-desculpas-22,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Visão vivencia vício.,7,substantivo,L
+elliton-desculpas-23,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Assombração assustadoramente assassinada.,14,adjetivo,H
+elliton-desculpas-24,livre,Elliton Santos Gomes,"Desculpas, Diferenças & Dores",Proposta providencia precipício.,11,substantivo,L
+elliton-quem-guarda-01,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,Dia de chuva.,4,substantivo,M
+elliton-quem-guarda-02,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,As pessoas andam de um lado ao outro,10,pronome,B
+elliton-quem-guarda-03,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,com seus guarda-chuvas.,5,substantivo,A
+elliton-quem-guarda-04,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,"Alguns grandes,",3,adjetivo,C
+elliton-quem-guarda-05,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,"outras, pequenas sombrinhas.",7,substantivo,D
+elliton-quem-guarda-06,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,"Coloridos, pretos,",5,adjetivo,E
+elliton-quem-guarda-07,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,zebrados e de bolinhas.,7,substantivo,D
+elliton-quem-guarda-08,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,"Parcialmente quebrados,",7,adjetivo,F
+elliton-quem-guarda-09,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,pela ventania forte.,7,adjetivo,G
+elliton-quem-guarda-10,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,Eu não gosto de guarda-chuvas.,8,substantivo,A
+elliton-quem-guarda-11,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,Que graça tem não se molhar?,8,verbo,H
+elliton-quem-guarda-12,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,Por isso carrego o meu,7,pronome,I
+elliton-quem-guarda-13,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,"embaixo do braço,",5,substantivo,J
+elliton-quem-guarda-14,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,para que ele evite,5,verbo,K
+elliton-quem-guarda-15,livre,Elliton Santos Gomes,Quem Guarda e Quem Chuva,se molhar também.,5,advérbio,L
+elliton-heliponto-01,livre,Elliton Santos Gomes,Heliponto de Mosca,"Não gosto de regras, métrica;",7,substantivo,A
+elliton-heliponto-02,livre,Elliton Santos Gomes,Heliponto de Mosca,invenções tão aprisionadoras.,10,adjetivo,AH
+elliton-heliponto-03,livre,Elliton Santos Gomes,Heliponto de Mosca,Gosto de brincar,5,verbo,C
+elliton-heliponto-04,livre,Elliton Santos Gomes,Heliponto de Mosca,de ser poeta:,4,substantivo,D
+elliton-heliponto-05,livre,Elliton Santos Gomes,Heliponto de Mosca,Escrever em hipotética,7,adjetivo,AG
+elliton-heliponto-06,livre,Elliton Santos Gomes,Heliponto de Mosca,na fresta da porta.,5,substantivo,E
+elliton-heliponto-07,livre,Elliton Santos Gomes,Heliponto de Mosca,Fazer festa,3,substantivo,AJ
+elliton-heliponto-08,livre,Elliton Santos Gomes,Heliponto de Mosca,em palavra ditada.,6,adjetivo,F
+elliton-heliponto-09,livre,Elliton Santos Gomes,Heliponto de Mosca,"Escrita, que seja.",5,verbo,G
+elliton-heliponto-10,livre,Elliton Santos Gomes,Heliponto de Mosca,Inventar quem sou;,5,verbo,H
+elliton-heliponto-11,livre,Elliton Santos Gomes,Heliponto de Mosca,afirmar sem saber.,6,verbo,I
+elliton-heliponto-12,livre,Elliton Santos Gomes,Heliponto de Mosca,"Ponderar tambor,",5,substantivo,J
+elliton-heliponto-13,livre,Elliton Santos Gomes,Heliponto de Mosca,soprar balé.,4,substantivo,K
+elliton-heliponto-14,livre,Elliton Santos Gomes,Heliponto de Mosca,Ser aquarela,4,substantivo,AK
+elliton-heliponto-15,livre,Elliton Santos Gomes,Heliponto de Mosca,enquanto o ego encera.,6,verbo,AL
+elliton-heliponto-16,livre,Elliton Santos Gomes,Heliponto de Mosca,Ponte de acolá,5,advérbio,AI
+elliton-heliponto-17,livre,Elliton Santos Gomes,Heliponto de Mosca,para nenhum lugar.,6,substantivo,C
+elliton-heliponto-18,livre,Elliton Santos Gomes,Heliponto de Mosca,"Não servir de exemplo,",5,substantivo,L
+elliton-heliponto-19,livre,Elliton Santos Gomes,Heliponto de Mosca,ser enojado:,4,adjetivo,M
+elliton-heliponto-20,livre,Elliton Santos Gomes,Heliponto de Mosca,Errar pontuação.,6,substantivo,N
+elliton-heliponto-21,livre,Elliton Santos Gomes,Heliponto de Mosca,"em verso sabido,",5,adjetivo,O
+elliton-heliponto-22,livre,Elliton Santos Gomes,Heliponto de Mosca,Quase colar,4,verbo,C
+elliton-heliponto-23,livre,Elliton Santos Gomes,Heliponto de Mosca,palavras que só existem,7,verbo,P
+elliton-heliponto-24,livre,Elliton Santos Gomes,Heliponto de Mosca,numa mente exaucebida.,7,adjetivo,Q
+elliton-heliponto-25,livre,Elliton Santos Gomes,Heliponto de Mosca,Rimar às vezes,4,substantivo,R
+elliton-heliponto-26,livre,Elliton Santos Gomes,Heliponto de Mosca,"ou agora,",2,advérbio,B
+elliton-heliponto-27,livre,Elliton Santos Gomes,Heliponto de Mosca,porque não há hora,5,substantivo,B
+elliton-heliponto-28,livre,Elliton Santos Gomes,Heliponto de Mosca,para jogar rima fora.,7,advérbio,B
+elliton-heliponto-29,livre,Elliton Santos Gomes,Heliponto de Mosca,Uns versos maiores do que os outros.,9,pronome,S
+elliton-heliponto-30,livre,Elliton Santos Gomes,Heliponto de Mosca,Uns,1,pronome,T
+elliton-heliponto-31,livre,Elliton Santos Gomes,Heliponto de Mosca,menores.,2,adjetivo,U
+elliton-heliponto-32,livre,Elliton Santos Gomes,Heliponto de Mosca,Dar ênfase,2,substantivo,V
+elliton-heliponto-33,livre,Elliton Santos Gomes,Heliponto de Mosca,onde não precisa.,5,verbo,W
+elliton-heliponto-34,livre,Elliton Santos Gomes,Heliponto de Mosca,Gesticular títulos,5,substantivo,X
+elliton-heliponto-35,livre,Elliton Santos Gomes,Heliponto de Mosca,como piadas internas.,7,adjetivo,Y
+elliton-heliponto-36,livre,Elliton Santos Gomes,Heliponto de Mosca,Bebericar metáforas:,6,substantivo,Z
+elliton-heliponto-37,livre,Elliton Santos Gomes,Heliponto de Mosca,"vem-vai dia, fica-inteira noite.",9,substantivo,AA
+elliton-heliponto-38,livre,Elliton Santos Gomes,Heliponto de Mosca,"Discurso com coerência,",7,substantivo,AB
+elliton-heliponto-39,livre,Elliton Santos Gomes,Heliponto de Mosca,vosmecê e ademais.,6,advérbio,AC
+elliton-heliponto-40,livre,Elliton Santos Gomes,Heliponto de Mosca,De vez em quando,4,advérbio,AD
+elliton-heliponto-41,livre,Elliton Santos Gomes,Heliponto de Mosca,soltar um mais no lugar do mas.,9,substantivo,AM
+elliton-heliponto-42,livre,Elliton Santos Gomes,Heliponto de Mosca,Espichar prosa,4,substantivo,AE
+elliton-heliponto-43,livre,Elliton Santos Gomes,Heliponto de Mosca,desnecessariamente,7,advérbio,AF
+elliton-heliponto-44,livre,Elliton Santos Gomes,Heliponto de Mosca,e acabar de repente.,6,substantivo,AF
+elliton-concretizacao-01,livre,Elliton Santos Gomes,Concretização,"Alarme soa sem fim, afim",9,adjetivo,A
+elliton-concretizacao-02,livre,Elliton Santos Gomes,Concretização,ao cansaço do amanhecer.,8,substantivo,B
+elliton-concretizacao-03,livre,Elliton Santos Gomes,Concretização,Será que esse sentimento ruim,10,adjetivo,A
+elliton-concretizacao-04,livre,Elliton Santos Gomes,Concretização,não vai parar de crescer?,7,verbo,B
+elliton-concretizacao-05,livre,Elliton Santos Gomes,Concretização,"Ao levantar,",4,verbo,C
+elliton-concretizacao-06,livre,Elliton Santos Gomes,Concretização,"a mente parece não aguentar,",10,verbo,C
+elliton-concretizacao-07,livre,Elliton Santos Gomes,Concretização,é tanto para segurar,8,verbo,C
+elliton-concretizacao-08,livre,Elliton Santos Gomes,Concretização,que um dia desabará.,7,verbo,L
+elliton-concretizacao-09,livre,Elliton Santos Gomes,Concretização,"Mas sem tempo para refletir,",9,verbo,D
+elliton-concretizacao-10,livre,Elliton Santos Gomes,Concretização,em poucos minutos o ônibus irá partir;,13,verbo,D
+elliton-concretizacao-11,livre,Elliton Santos Gomes,Concretização,"com ou sem você,",5,pronome,E
+elliton-concretizacao-12,livre,Elliton Santos Gomes,Concretização,o mundo continuará a matinê.,11,substantivo,E
+elliton-concretizacao-13,livre,Elliton Santos Gomes,Concretização,"Pisque e já está na lotação,",9,substantivo,F
+elliton-concretizacao-14,livre,Elliton Santos Gomes,Concretização,"no meio do cardume, seguindo a maré;",12,substantivo,G
+elliton-concretizacao-15,livre,Elliton Santos Gomes,Concretização,os rostos cansados na multidão,10,substantivo,F
+elliton-concretizacao-16,livre,Elliton Santos Gomes,Concretização,e o seu não foge disso: blasé.,9,adjetivo,G
+elliton-concretizacao-17,livre,Elliton Santos Gomes,Concretização,As horas nesse zepelim,8,substantivo,A
+elliton-concretizacao-18,livre,Elliton Santos Gomes,Concretização,dão tempo para sonhar:,7,verbo,C
+elliton-concretizacao-19,livre,Elliton Santos Gomes,Concretização,"um trapezista, um trampolim,",8,substantivo,A
+elliton-concretizacao-20,livre,Elliton Santos Gomes,Concretização,"e você no meio, vendo o povo ovacionar.",14,verbo,C
+elliton-concretizacao-21,livre,Elliton Santos Gomes,Concretização,"Mas ei, acorda guri",7,substantivo,H
+elliton-concretizacao-22,livre,Elliton Santos Gomes,Concretização,desce que você já chegou:,8,verbo,I
+elliton-concretizacao-23,livre,Elliton Santos Gomes,Concretização,"você não é Geni,",6,substantivo,H
+elliton-concretizacao-24,livre,Elliton Santos Gomes,Concretização,mas o mundo te apedrejou.,8,verbo,I
+elliton-concretizacao-25,livre,Elliton Santos Gomes,Concretização,"Fábrica solta fumaça da chaminé,",12,substantivo,G
+elliton-concretizacao-26,livre,Elliton Santos Gomes,Concretização,concreto no mesmo vaivém.,8,substantivo,J
+elliton-concretizacao-27,livre,Elliton Santos Gomes,Concretização,Mais um litro de café,7,substantivo,G
+elliton-concretizacao-28,livre,Elliton Santos Gomes,Concretização,para suportar o desdém.,8,substantivo,J
+elliton-concretizacao-29,livre,Elliton Santos Gomes,Concretização,"Concreto, cinza, suor;",7,substantivo,K
+elliton-concretizacao-30,livre,Elliton Santos Gomes,Concretização,"engrenagem, pó, armazém;",8,substantivo,J
+elliton-concretizacao-31,livre,Elliton Santos Gomes,Concretização,"empilhadeira, misturador;",9,substantivo,K
+elliton-concretizacao-32,livre,Elliton Santos Gomes,Concretização,e você: ninguém.,5,pronome,J
+elliton-concretizacao-33,livre,Elliton Santos Gomes,Concretização,"Pisque e o alarme soa sem fim, enfim.",11,advérbio,A
+elliton-in-and-out-01,livre,Elliton Santos Gomes,In and Out,"Me lembro,",2,verbo,A
+elliton-in-and-out-02,livre,Elliton Santos Gomes,In and Out,"assim, do nada,",4,pronome,B
+elliton-in-and-out-03,livre,Elliton Santos Gomes,In and Out,daquele pensamento incansável,9,adjetivo,C
+elliton-in-and-out-04,livre,Elliton Santos Gomes,In and Out,de que tudo é inevitável.,8,adjetivo,C
+elliton-in-and-out-05,livre,Elliton Santos Gomes,In and Out,"Me canso,",2,verbo,D
+elliton-in-and-out-06,livre,Elliton Santos Gomes,In and Out,"assim, de tudo,",4,pronome,E
+elliton-in-and-out-07,livre,Elliton Santos Gomes,In and Out,já que o papo inexistente,7,adjetivo,F
+elliton-in-and-out-08,livre,Elliton Santos Gomes,In and Out,se tornou tão insistente.,7,adjetivo,F
+elliton-in-and-out-09,livre,Elliton Santos Gomes,In and Out,"Me agradeço,",3,verbo,G
+elliton-in-and-out-10,livre,Elliton Santos Gomes,In and Out,"assim: de nada,",4,pronome,B
+elliton-in-and-out-11,livre,Elliton Santos Gomes,In and Out,com um jeito inocente,6,adjetivo,F
+elliton-in-and-out-12,livre,Elliton Santos Gomes,In and Out,de uma maneira meio inconsciente.,10,adjetivo,F
+elliton-in-and-out-13,livre,Elliton Santos Gomes,In and Out,"Me assusto,",2,verbo,H
+elliton-in-and-out-14,livre,Elliton Santos Gomes,In and Out,"assim, do tudo,",4,pronome,E
+elliton-in-and-out-15,livre,Elliton Santos Gomes,In and Out,pois nele vem incluso,6,adjetivo,I
+elliton-in-and-out-16,livre,Elliton Santos Gomes,In and Out,um apavorante intruso.,7,adjetivo,I
+elliton-in-and-out-17,livre,Elliton Santos Gomes,In and Out,"Me amargo,",2,verbo,J
+elliton-in-and-out-18,livre,Elliton Santos Gomes,In and Out,assim: dê nada!,4,pronome,B
+elliton-in-and-out-19,livre,Elliton Santos Gomes,In and Out,"Tentando ser invejoso,",7,adjetivo,K
+elliton-in-and-out-20,livre,Elliton Santos Gomes,In and Out,mas só me torno inescrupuloso.,9,adjetivo,K
+elliton-in-and-out-21,livre,Elliton Santos Gomes,In and Out,"Me incentivo,",3,verbo,L
+elliton-in-and-out-22,livre,Elliton Santos Gomes,In and Out,assim: dê tudo!,4,pronome,E
+elliton-in-and-out-23,livre,Elliton Santos Gomes,In and Out,"Como se eu fosse invencível,",7,adjetivo,M
+elliton-in-and-out-24,livre,Elliton Santos Gomes,In and Out,mas só me encontro invisível.,7,adjetivo,M
+elliton-in-and-out-25,livre,Elliton Santos Gomes,In and Out,"Me lembro de cor,",5,substantivo,N
+elliton-in-and-out-26,livre,Elliton Santos Gomes,In and Out,"com um tiro certeiro,",6,adjetivo,O
+elliton-in-and-out-27,livre,Elliton Santos Gomes,In and Out,daquele outdoor,4,substantivo,N
+elliton-in-and-out-28,livre,Elliton Santos Gomes,In and Out,no topo do outeiro.,5,substantivo,O
+elliton-in-and-out-29,livre,Elliton Santos Gomes,In and Out,"Me canso da droga,",5,substantivo,P
+elliton-in-and-out-30,livre,Elliton Santos Gomes,In and Out,do amor e dos encontros.,6,substantivo,Q
+elliton-in-and-out-31,livre,Elliton Santos Gomes,In and Out,"Assim, não aceito outorga",7,substantivo,AA
+elliton-in-and-out-32,livre,Elliton Santos Gomes,In and Out,"de outras, de outros.",3,pronome,AB
+elliton-in-and-out-33,livre,Elliton Santos Gomes,In and Out,Me agradeço pelo seu bem,8,substantivo,R
+elliton-in-and-out-34,livre,Elliton Santos Gomes,In and Out,e tiro tudo para fora.,8,advérbio,S
+elliton-in-and-out-35,livre,Elliton Santos Gomes,In and Out,"Conselhos servem para outrem,",7,pronome,AC
+elliton-in-and-out-36,livre,Elliton Santos Gomes,In and Out,alguém em outrora.,5,advérbio,S
+elliton-in-and-out-37,livre,Elliton Santos Gomes,In and Out,Me assusto e derrubo,5,verbo,T
+elliton-in-and-out-38,livre,Elliton Santos Gomes,In and Out,"um presente sinfônico,",6,adjetivo,U
+elliton-in-and-out-39,livre,Elliton Santos Gomes,In and Out,dado em pleno outubro,5,substantivo,AD
+elliton-in-and-out-40,livre,Elliton Santos Gomes,In and Out,por um ser outônico.,5,adjetivo,U
+elliton-in-and-out-41,livre,Elliton Santos Gomes,In and Out,Me amargo sim,4,advérbio,V
+elliton-in-and-out-42,livre,Elliton Santos Gomes,In and Out,de tanto imaginar.,6,verbo,W
+elliton-in-and-out-43,livre,Elliton Santos Gomes,In and Out,"Te desejo uma emoção, outrossim",10,advérbio,V
+elliton-in-and-out-44,livre,Elliton Santos Gomes,In and Out,para que possa me outorgar.,8,verbo,W
+elliton-in-and-out-45,livre,Elliton Santos Gomes,In and Out,Me incentivo a ser errôneo:,7,adjetivo,X
+elliton-in-and-out-46,livre,Elliton Santos Gomes,In and Out,"para errar até o final,",7,substantivo,Y
+elliton-in-and-out-47,livre,Elliton Santos Gomes,In and Out,esquecer do outono,5,substantivo,AE
+elliton-in-and-out-48,livre,Elliton Santos Gomes,In and Out,e de tudo que é outonal.,8,adjetivo,Y
+elliton-in-and-out-49,livre,Elliton Santos Gomes,In and Out,"Out and in,",3,advérbio,V
+elliton-in-and-out-50,livre,Elliton Santos Gomes,In and Out,que eu encontre meu fim.,6,substantivo,V
+elliton-in-and-out-51,livre,Elliton Santos Gomes,In and Out,"In and out,",3,advérbio,Z
+elliton-in-and-out-52,livre,Elliton Santos Gomes,In and Out,"que até lá, nada me falte.",7,verbo,AF

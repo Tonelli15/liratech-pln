@@ -1,1 +1,13 @@
 ﻿id_1;id_2;poema;palavra_1;palavra_2;fonema_1;fonema_2;gabarito;motor;causa
+elliton-concretizacao-11;elliton-concretizacao-14;Concretização;você;maré;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-11;elliton-concretizacao-16;Concretização;você;blasé;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-11;elliton-concretizacao-25;Concretização;você;chaminé;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-11;elliton-concretizacao-27;Concretização;você;café;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-12;elliton-concretizacao-14;Concretização;matinê;maré;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-12;elliton-concretizacao-16;Concretização;matinê;blasé;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-12;elliton-concretizacao-25;Concretização;matinê;chaminé;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-12;elliton-concretizacao-27;Concretização;matinê;café;e;e;não rimam;rimam;Normalização aceita timbre distinto (ê × é)
+elliton-concretizacao-29;elliton-concretizacao-31;Concretização;suor;misturador;uor;or;rimam;não rimam;Erro de separação silábica: hiato
+elliton-in-and-out-41;elliton-in-and-out-49;In and Out;sim;in;im;in;rimam;não rimam;Palavra estrangeira
+elliton-in-and-out-43;elliton-in-and-out-49;In and Out;outrossim;in;im;in;rimam;não rimam;Palavra estrangeira
+elliton-in-and-out-49;elliton-in-and-out-50;In and Out;in;fim;in;im;rimam;não rimam;Palavra estrangeira

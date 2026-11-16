@@ -1,3 +1,111 @@
 ﻿id;autor;poema;verso;palavra_final;esperado;obtido;causa
-camoes-amor-07;Luís de Camões;Amor é fogo que arde sem se ver;"É nunca contentar-se de contente;";contente;adjetivo;substantivo;
-exemplo-relogio-04;Exemplo;Relógio parado;no relógio parado.;parado;adjetivo;verbo;
+camoes-sete-anos-11;Luís de Camões;Sete anos de pastor Jacob servia;Como se a não tivera merecida,;merecida;verbo;adjetivo;Particípio: verbo × adjetivo
+camoes-sete-anos-13;Luís de Camões;Sete anos de pastor Jacob servia;dizendo: Mais servira, se não fora;fora;verbo;advérbio;Homografia entre classes
+camoes-busque-amor-05;Luís de Camões;Busque Amor novas artes, novo engenho;Olhai de que esperanças me mantenho,;mantenho;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+camoes-busque-amor-10;Luís de Camões;Busque Amor novas artes, novo engenho;Onde esperança falta, lá m’esconde;m’esconde;verbo;substantivo;Palavra com apóstrofo (elisão)
+bocage-magro-14;Bocage;Magro, de olhos azuis, carão moreno;Num dia em que se achou mais pachorrento.;pachorrento;adjetivo;substantivo;Erro do etiquetador sem ambiguidade aparente
+alvares-palida-02;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;Sobre o leito de flores reclinada,;reclinada;adjetivo;verbo;Particípio: verbo × adjetivo
+alvares-palida-03;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;Como a lua por noite embalsamada,;embalsamada;adjetivo;verbo;Particípio: verbo × adjetivo
+alvares-palida-04;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;Entre as nuvens do amor ela dormia!;dormia;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+alvares-palida-05;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;Era a virgem do mar! Na escuma fria;fria;adjetivo;substantivo;Erro do etiquetador sem ambiguidade aparente
+alvares-palida-06;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;Pela maré das águas embalada...;embalada;adjetivo;verbo;Particípio: verbo × adjetivo
+alvares-palida-07;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;— Era um anjo entre nuvens d’alvorada;d’alvorada;substantivo;verbo;Palavra com apóstrofo (elisão)
+alvares-palida-12;Álvares de Azevedo;Pálida, à luz da lâmpada sombria;Não te rias de mim, meu anjo lindo!;lindo;adjetivo;verbo;Homografia entre classes
+bilac-via-lactea-01-02;Olavo Bilac;Via Láctea, I;Que, aos raios do luar iluminada,;iluminada;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-via-lactea-01-05;Olavo Bilac;Via Láctea, I;E eu olhava-a de baixo, olhava-a... Em cada;cada;pronome;determinante;Encadeamento (termo completado no verso seguinte)
+bilac-via-lactea-01-07;Olavo Bilac;Via Láctea, I;Mudo e sereno, um anjo a harpa doirada,;doirada;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-via-lactea-01-08;Olavo Bilac;Via Láctea, I;Ressoante de súplicas, feria...;feria;verbo;substantivo;Homografia entre classes
+bilac-via-lactea-01-09;Olavo Bilac;Via Láctea, I;Tu, mãe sagrada! vós também, formosas;formosas;adjetivo;substantivo;Encadeamento (termo completado no verso seguinte)
+bilac-via-lactea-01-12;Olavo Bilac;Via Láctea, I;E, ó meu amor! eu te buscava, quando;quando;conjunção;advérbio;Convenção da etiquetagem UD (DET/ADV)
+bilac-via-lactea-20-01;Olavo Bilac;Via Láctea, XX;Olha-me! O teu olhar sereno e brando;brando;adjetivo;verbo;Erro do etiquetador sem ambiguidade aparente
+bilac-via-lactea-20-02;Olavo Bilac;Via Láctea, XX;Entra-me o peito, como um largo rio;rio;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+bilac-via-lactea-20-04;Olavo Bilac;Via Láctea, XX;O ermo de um bosque tenebroso e frio.;frio;adjetivo;substantivo;Homografia entre classes
+bilac-via-lactea-20-05;Olavo Bilac;Via Láctea, XX;Fala-me! Em grupos doudejantes, quando;quando;conjunção;advérbio;Convenção da etiquetagem UD (DET/ADV)
+bilac-via-lactea-20-12;Olavo Bilac;Via Láctea, XX;E enquanto eu ardo em sua luz, enquanto;enquanto;conjunção;advérbio;Convenção da etiquetagem UD (DET/ADV)
+bilac-nel-mezzo-01;Olavo Bilac;Nel mezzo del camin...;Cheguei. Chegaste. Vinhas fatigada;fatigada;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-nel-mezzo-03;Olavo Bilac;Nel mezzo del camin...;Tinhas a alma de sonhos povoada,;povoada;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-nel-mezzo-06;Olavo Bilac;Nel mezzo del camin...;Da vida: longos anos, presa à minha;minha;pronome;determinante;Convenção da etiquetagem UD (DET/ADV)
+bilac-nel-mezzo-07;Olavo Bilac;Nel mezzo del camin...;"A tua mão; a vista deslumbrada";deslumbrada;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-nel-mezzo-12;Olavo Bilac;Nel mezzo del camin...;E eu, solitário, volto a face, e tremo,;tremo;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+bilac-inania-verba-01;Olavo Bilac;Inania verba;Ah! quem há de exprimir, alma impotente e escrava,;escrava;adjetivo;verbo;Erro do etiquetador sem ambiguidade aparente
+bilac-inania-verba-03;Olavo Bilac;Inania verba;– Ardes, sangras, pregada à tua cruz, e, em breve,;breve;adjetivo;substantivo;Homografia entre classes
+bilac-inania-verba-07;Olavo Bilac;Inania verba;E a Palavra pesada abafa a Ideia leve,;leve;adjetivo;verbo;Homografia entre classes
+bilac-in-extremis-04;Olavo Bilac;In extremis;Fria! postos nos meus os teus olhos molhados,;molhados;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-in-extremis-05;Olavo Bilac;In extremis;E apertando nos teus os meus dedos gelados...;gelados;adjetivo;verbo;Particípio: verbo × adjetivo
+bilac-in-extremis-16;Olavo Bilac;In extremis;Tu, vendo retorcer-se amarguradamente,;amarguradamente;advérbio;adjetivo;Erro do etiquetador sem ambiguidade aparente
+bilac-in-extremis-17;Olavo Bilac;In extremis;A boca que beijava a tua boca ardente,;ardente;adjetivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+bilac-in-extremis-18;Olavo Bilac;In extremis;A boca que foi tua!;tua;pronome;verbo;Erro do etiquetador sem ambiguidade aparente
+bilac-in-extremis-21;Olavo Bilac;In extremis;Tão bela palpitar nos teus olhos, querida,;querida;adjetivo;verbo;Particípio: verbo × adjetivo
+machado-circulo-vicioso-09;Machado de Assis;Círculo vicioso;-- “Mísera! tivesse eu aquela enorme, aquela;aquela;pronome;determinante;Encadeamento (termo completado no verso seguinte)
+machado-circulo-vicioso-10;Machado de Assis;Círculo vicioso;Claridade imortal, que toda a luz resume!”;resume;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+machado-circulo-vicioso-11;Machado de Assis;Círculo vicioso;Mas o sol, inclinando a rútila capela:;capela;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+machado-mundo-interior-02;Machado de Assis;Mundo interior;De pompa, de fulgor, de movimento e lida,;lida;substantivo;verbo;Homografia entre classes
+machado-mundo-interior-04;Machado de Assis;Mundo interior;De sol à ínfima luzerna.;luzerna;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+machado-mundo-interior-05;Machado de Assis;Mundo interior;Ouço que a natureza, -- a natureza externa--;externa--;adjetivo;indefinida;Pontuação colada à palavra
+machado-mundo-interior-09;Machado de Assis;Mundo interior;E contudo, se fecho os olhos, e mergulho;mergulho;verbo;substantivo;Homografia entre classes
+machado-mundo-interior-12;Machado de Assis;Mundo interior;Rola a vida imortal e o eterno cataclismo,;cataclismo;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+machado-mundo-interior-14;Machado de Assis;Mundo interior;Um segredo que atrai, que desafia – e dorme.;dorme;verbo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+machado-soneto-de-natal-04;Machado de Assis;Soneto de Natal;E a viva dança, e a lépida cantiga,;cantiga;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+machado-soneto-de-natal-10;Machado de Assis;Soneto de Natal;"Pede-lhe a inspiração; mas, frouxa e manca,";manca;adjetivo;substantivo;Homografia entre classes
+machado-soneto-de-natal-11;Machado de Assis;Soneto de Natal;A pena não acode ao gesto seu.;seu;pronome;determinante;Convenção da etiquetagem UD (DET/ADV)
+machado-soneto-de-natal-12;Machado de Assis;Soneto de Natal;E, em vão lutando contra o metro adverso,;adverso;adjetivo;substantivo;Erro do etiquetador sem ambiguidade aparente
+machado-suave-mari-magno-05;Machado de Assis;Suave mari magno;Arfava, espumava e ria,;ria;verbo;substantivo;Homografia entre classes
+machado-suave-mari-magno-11;Machado de Assis;Suave mari magno;Silencioso,;Silencioso;adjetivo;substantivo;Verso curto ou nominal (pouco contexto)
+cruz-risadas-01;Cruz e Sousa;Risadas;Fantasia, ó fantasia, tropo ardente;ardente;adjetivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-03;Cruz e Sousa;Risadas;Do adamascado e rúbido oriente,;oriente;substantivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-04;Cruz e Sousa;Risadas;Ó fantasia, águia das asas pandas.;pandas;adjetivo;verbo;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-05;Cruz e Sousa;Risadas;Tu que os clarins do sonho mais fulgente;fulgente;adjetivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-07;Cruz e Sousa;Risadas;Ó fantasia dos Romeus, ó crente,;crente;adjetivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-08;Cruz e Sousa;Risadas;Por que países meridionais tu andas?!;andas;verbo;substantivo;Homografia entre classes
+cruz-risadas-09;Cruz e Sousa;Risadas;Vem das esferas, entre os sons que vibras.;vibras;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-11;Cruz e Sousa;Risadas;Quero sentir como este sangue impulsas.;impulsas;verbo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+cruz-risadas-12;Cruz e Sousa;Risadas;Noiva do sol que os sóis preclaros gozas;gozas;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+elliton-carencia-05;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Fora, oh! cabelo dourado;";dourado;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-carencia-07;Elliton Santos Gomes;Carência em um Lugar Indefinido;"Dentro, oh! coração apaixonado;";apaixonado;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-carencia-10;Elliton Santos Gomes;Carência em um Lugar Indefinido;Flui intensamente bêbada.;bêbada;adjetivo;verbo;Erro do etiquetador sem ambiguidade aparente
+elliton-carencia-12;Elliton Santos Gomes;Carência em um Lugar Indefinido;Circunda esta ardente labareda.;labareda;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-desculpas-06;Elliton Santos Gomes;Desculpas, Diferenças & Dores;que carrego comigo,;comigo;pronome;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-desculpas-09;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Abominação abrigada abalável.;abalável;adjetivo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-desculpas-10;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Imaturidade imoral imunda.;imunda;adjetivo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-desculpas-11;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Inatividade infundada inundável.;inundável;adjetivo;advérbio;Verso curto ou nominal (pouco contexto)
+elliton-desculpas-12;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Afeição afinal afunda.;afunda;verbo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-desculpas-16;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Cidade desconhecida…;desconhecida;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-desculpas-17;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Isenção imatura.;imatura;adjetivo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-desculpas-18;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Zumbido perdura.;perdura;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+elliton-desculpas-21;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Crosta cronicamente cremada.;cremada;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-desculpas-22;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Visão vivencia vício.;vício;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-desculpas-23;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Assombração assustadoramente assassinada.;assassinada;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-desculpas-24;Elliton Santos Gomes;Desculpas, Diferenças & Dores;Proposta providencia precipício.;precipício;substantivo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-quem-guarda-02;Elliton Santos Gomes;Quem Guarda e Quem Chuva;As pessoas andam de um lado ao outro;outro;pronome;substantivo;Homografia entre classes
+elliton-quem-guarda-04;Elliton Santos Gomes;Quem Guarda e Quem Chuva;Alguns grandes,;grandes;adjetivo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-quem-guarda-06;Elliton Santos Gomes;Quem Guarda e Quem Chuva;Coloridos, pretos,;pretos;adjetivo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-quem-guarda-12;Elliton Santos Gomes;Quem Guarda e Quem Chuva;Por isso carrego o meu;meu;pronome;determinante;Convenção da etiquetagem UD (DET/ADV)
+elliton-heliponto-01;Elliton Santos Gomes;Heliponto de Mosca;"Não gosto de regras, métrica;";métrica;substantivo;adjetivo;Homografia entre classes
+elliton-heliponto-05;Elliton Santos Gomes;Heliponto de Mosca;Escrever em hipotética;hipotética;adjetivo;substantivo;Homografia entre classes
+elliton-heliponto-14;Elliton Santos Gomes;Heliponto de Mosca;Ser aquarela;aquarela;substantivo;adjetivo;Verso curto ou nominal (pouco contexto)
+elliton-heliponto-16;Elliton Santos Gomes;Heliponto de Mosca;Ponte de acolá;acolá;advérbio;substantivo;Erro do etiquetador sem ambiguidade aparente
+elliton-heliponto-19;Elliton Santos Gomes;Heliponto de Mosca;ser enojado:;enojado;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-heliponto-21;Elliton Santos Gomes;Heliponto de Mosca;em verso sabido,;sabido;adjetivo;verbo;Particípio: verbo × adjetivo
+elliton-heliponto-24;Elliton Santos Gomes;Heliponto de Mosca;numa mente exaucebida.;exaucebida;adjetivo;verbo;Neologismo ou regionalismo
+elliton-heliponto-30;Elliton Santos Gomes;Heliponto de Mosca;Uns;Uns;pronome;numeral;Homografia entre classes
+elliton-heliponto-39;Elliton Santos Gomes;Heliponto de Mosca;vosmecê e ademais.;ademais;advérbio;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-heliponto-42;Elliton Santos Gomes;Heliponto de Mosca;Espichar prosa;prosa;substantivo;adjetivo;Verso curto ou nominal (pouco contexto)
+elliton-concretizacao-01;Elliton Santos Gomes;Concretização;Alarme soa sem fim, afim;afim;adjetivo;substantivo;Homografia entre classes
+elliton-concretizacao-17;Elliton Santos Gomes;Concretização;As horas nesse zepelim;zepelim;substantivo;verbo;Erro do etiquetador sem ambiguidade aparente
+elliton-concretizacao-20;Elliton Santos Gomes;Concretização;e você no meio, vendo o povo ovacionar.;ovacionar;verbo;adjetivo;Erro do etiquetador sem ambiguidade aparente
+elliton-concretizacao-21;Elliton Santos Gomes;Concretização;Mas ei, acorda guri;guri;substantivo;indefinida;Neologismo ou regionalismo
+elliton-in-and-out-01;Elliton Santos Gomes;In and Out;Me lembro,;lembro;verbo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-in-and-out-05;Elliton Santos Gomes;In and Out;Me canso,;canso;verbo;adjetivo;Verso curto ou nominal (pouco contexto)
+elliton-in-and-out-08;Elliton Santos Gomes;In and Out;se tornou tão insistente.;insistente;adjetivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-09;Elliton Santos Gomes;In and Out;Me agradeço,;agradeço;verbo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-in-and-out-12;Elliton Santos Gomes;In and Out;de uma maneira meio inconsciente.;inconsciente;adjetivo;advérbio;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-13;Elliton Santos Gomes;In and Out;Me assusto,;assusto;verbo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-in-and-out-15;Elliton Santos Gomes;In and Out;pois nele vem incluso;incluso;adjetivo;substantivo;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-17;Elliton Santos Gomes;In and Out;Me amargo,;amargo;verbo;substantivo;Verso curto ou nominal (pouco contexto)
+elliton-in-and-out-21;Elliton Santos Gomes;In and Out;Me incentivo,;incentivo;verbo;adjetivo;Verso curto ou nominal (pouco contexto)
+elliton-in-and-out-31;Elliton Santos Gomes;In and Out;Assim, não aceito outorga;outorga;substantivo;determinante;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-35;Elliton Santos Gomes;In and Out;Conselhos servem para outrem,;outrem;pronome;verbo;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-37;Elliton Santos Gomes;In and Out;Me assusto e derrubo;derrubo;verbo;substantivo;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-38;Elliton Santos Gomes;In and Out;um presente sinfônico,;sinfônico;adjetivo;substantivo;Erro do etiquetador sem ambiguidade aparente
+elliton-in-and-out-49;Elliton Santos Gomes;In and Out;Out and in,;in;advérbio;substantivo;Palavra estrangeira
+elliton-in-and-out-51;Elliton Santos Gomes;In and Out;In and out,;out;advérbio;substantivo;Palavra estrangeira
